@@ -94,7 +94,7 @@ class Sec6 extends Component {
             <br></br>
             <p style={{ fontSize: "25px" }}>
               <MdEmail style={{ color: "#E8505B", fontSize: "25px" }} />
-              contact@softsourced.de
+              info@softsourced.de
             </p>
           </div>
           <div className="inner">
