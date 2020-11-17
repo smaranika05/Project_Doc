@@ -17,7 +17,7 @@ function App() {
   return (
    <Router>
      <Header />
-    <Route exact path="/Home" component={Home} />
+    <Route exact path="/" component={Home} />
     <Route exact path="/Referenzen" component={Refer} />
     <Route exact path="/Kontakt" component={Kont} />
     <Route exact path="/Blogs" component={Blog} />
