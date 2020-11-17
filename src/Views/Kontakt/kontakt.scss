@@ -1,0 +1,22 @@
+.kont_wrap{
+    .kont_lhs{
+        float: left;
+        padding: 250px 0px 0px 60px;
+        width: 30%;
+       
+        p{
+            font-size: 30px;
+            
+        }
+    }
+    .kont_rhs{
+        width: 50%;
+        float: right;
+        padding:   100px 0px 0px 100px;
+        
+        img{
+            width: 100%;
+        }
+    }
+    
+}
