@@ -89,9 +89,7 @@ class Blog extends Component {
            
           </div>
           <div className="blog_articles">{blog_articles}</div>
-          <div class="blog_article">
-            <a href="/ViewBlogPage"> View all blogs</a>
-          </div>
+         
         </Container>
       </div>
     );
