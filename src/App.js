@@ -10,17 +10,21 @@ import Refer from "./Views/Refer/refer";
 import Blog from "./Views/Blog/blog";
 import Home from "./Views/Homepage/homepage";
 import Header from "./Components/Header/header";
+import Pakt from "./Views/Pakete/pakete";
 
 import './App.css';
 
+
 function App() {
   return (
+    
    <Router>
      <Header />
     <Route exact path="/" component={Home} />
     <Route exact path="/Referenzen" component={Refer} />
     <Route exact path="/Kontakt" component={Kont} />
     <Route exact path="/Blogs" component={Blog} />
+    <Route exact path="/Pakete" component={Pakt} />
   </Router>
   );
 }

@@ -39,7 +39,7 @@ class   Refer extends Component {
               <p>www.drdettner.de</p>
               </div>
               <div className="exmp_rhs">
-                  <img src={Dig} alt="Praxis"/>
+                  <img src={Dig} alt="Praxis" style={{boxShow:"0 8px 16px 0 rgba(0,0,0,0.2)"}}/>
 
               </div>
 

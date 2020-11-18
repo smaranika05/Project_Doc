@@ -27,7 +27,7 @@ class Header extends React.Component {
 
         {
           linkName: "Pakete",
-          linkAdd: "#",
+          linkAdd: "Pakete",
           active: false,
           useNavLink: false,
         },
@@ -112,7 +112,7 @@ class Header extends React.Component {
         </div>
         <div className="header-wrap" ref={this.headerNavbar}>
           <div className="brandLogo">
-            <Link smooth to="/Home">
+            <Link smooth to="#">
              <h1>LOGO</h1>
             </Link>
           </div>
