@@ -20,18 +20,18 @@ function App() {
   return (
  
   // <BlogPage/>
-  <Sec3/>
+  // <Sec3/>
 
     // <Kont/>
-  //  <Router>
-  //    <Header />
-  //    <Route path="/blog/:author/:blogid" component={BlogPage} />
-  //   <Route exact path="/" component={Home} />
-  //   <Route exact path="/Referenzen" component={Refer} />
-  //   <Route exact path="/Kontakt" component={Kont} />
-  //   <Route exact path="/Blogs" component={Blog} />
-  //   <Route exact path="/Pakete" component={Pakt} />
-  // </Router>
+   <Router>
+     <Header />
+     <Route path="/blog/:author/:blogid" component={BlogPage} />
+    <Route exact path="/" component={Home} />
+    <Route exact path="/Referenzen" component={Refer} />
+    <Route exact path="/Kontakt" component={Kont} />
+    <Route exact path="/Blogs" component={Blog} />
+    <Route exact path="/Pakete" component={Pakt} />
+  </Router>
   );
 }
 
