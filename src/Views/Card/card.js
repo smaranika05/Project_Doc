@@ -6,19 +6,30 @@ class Cardp extends Component {
   render() {
     return (
       <div className="card_wrapper">
-        <div className="card_lhs">
+        <div
+          className="card_lhs"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="500"
+        >
           <p style={{ fontSize: "25px" }}>
             Ob Neugestaltung des Internetauftritt Ihrer Praxis, oder
             Umgestaltung von bestehenden Websites{" "}
           </p>
-          <p>
+          <p style={{ fontSize: "25px" }}>
             Wir unterstützen Sie mit unserer Expertise zu gutem
             Preis-Leistungs-Verhältnis:
           </p>
         </div>
         <div className="card_rhs">
           <div className="card_cont">
-            <div className="c1">
+            <div
+              className="c1"
+              data-aos="fade-down"
+              // data-aos-easing="linear"
+              data-aos-duration="1000"
+              data-aos-delay="500"
+            >
               <div className="cardbody1">
                 <img src={Cardimg} alt="Praxis" />
                 <div class="cont">
@@ -36,7 +47,13 @@ class Cardp extends Component {
                 </div>
               </div>
             </div>
-            <div className="c2">
+            <div
+              className="c2"
+              data-aos="fade-up"
+              // data-aos-easing="linear"
+              data-aos-duration="1000"
+              data-aos-delay="500"
+            >
               <div className="cardbody2">
                 <img src={Cardimg} alt="Praxis" />
                 <div class="cont">

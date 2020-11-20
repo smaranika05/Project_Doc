@@ -6,7 +6,7 @@
     width: 40%;
     float: left;
 
-    padding: 200px 0px 0px 30px;
+    padding: 150px 0px 0px 30px;
   }
 
   .card_rhs {
@@ -56,6 +56,7 @@
         }
       }
     }
+
     .c2 {
       padding: 150px 10px 0px 0px;
       .cardbody2 {
@@ -89,6 +90,27 @@
           border-radius: 5px;
           font-weight: 400;
         }
+      }
+    }
+  }
+}
+@media screen and (max-width: 700px) {
+  .card_wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    width: fit-content;
+
+    .card_lhs {
+      width: auto;
+      justify-content: center;
+      // width: fit-content;
+      display: flex;
+      flex-direction: column;
+      h1 {
+        font-size: 30px;
+      }
+      p {
+        font-size: 25px;
       }
     }
   }

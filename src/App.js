@@ -17,7 +17,10 @@ import './App.css';
 
 function App() {
   return (
-    
+  // <Cardp/>
+  // <Sec3/>
+ 
+    // <Kont/>
    <Router>
      <Header />
     <Route exact path="/" component={Home} />

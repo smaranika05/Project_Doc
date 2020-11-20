@@ -1,8 +1,9 @@
 .home_wrap {
   display: flex;
   flex-direction: column;
+  overflow: hidden;
   .part2 {
-    margin-top: 100px;
+    margin-top: 50px;
   }
   .part3 {
     margin-top: 100px;
@@ -10,4 +11,7 @@
   .part4 {
     margin-top: 100px;
   }
+}
+.section {
+  overflow: hidden;
 }

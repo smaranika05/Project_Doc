@@ -1,5 +1,5 @@
 import React from "react";
-
+import Logo from "./../../Assets/praxis-logo.png";
 import "./header.scss";
 
 
@@ -112,8 +112,8 @@ class Header extends React.Component {
         </div>
         <div className="header-wrap" ref={this.headerNavbar}>
           <div className="brandLogo">
-            <Link smooth to="#">
-             <h1>LOGO</h1>
+            <Link smooth to="/">
+             <h1><img src={Logo} alt="Praxis" style={{width:"20%"}}></img></h1>
             </Link>
           </div>
 

@@ -1,19 +1,38 @@
 .sec6_wrap {
   display: flex;
   flex-direction: column;
-
+  // overflow-x: hidden;
   .wrap_sec6 {
     width: 100%;
     padding: 50px 0px 50px 0px;
     .six_lhs {
       float: left;
-      width: 50%;
+      width: 40%;
       padding-left: 50px;
+      font-size: 20px;
+      line-height: 1.5;
       // padding: 200px 0px 0px 100px;
     }
     .six_rhs {
       float: right;
       //padding:  100px 0px 0px 0px;
+      display: flex;
+      flex-direction: row;
+      // overflow-x: hidden; // align-items: flex-end;
+      .gradient {
+        background: linear-gradient(20deg, #cf149d 70%, #e8505c 100%);
+        height: 500px;
+        width: 400px;
+        position: absolute;
+        right: 0px;
+      }
+      .grad_img {
+        position: relative;
+        padding-top: 60px;
+        padding-right: 60px;
+        // left: -400px;
+        // top: 40px;
+      }
     }
   }
 
@@ -72,8 +91,6 @@
         padding: 20px;
         margin: 0px;
       }
-
-      
     }
     .inner {
       display: flex;

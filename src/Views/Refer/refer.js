@@ -7,6 +7,7 @@ import "./refer.scss";
 class   Refer extends Component {
   render() {
     return (
+       <div className="refer">
       <div className="refer_wrap">
           <div className="ref_one">
           <div className="refer_lhs">
@@ -19,11 +20,12 @@ class   Refer extends Component {
           </div>
           </div>
           <div className="ref_text" >
-              <p style={{fontSize:"30px",display:"flex", justifyContent:"center"}} >Homepage für Ärzte</p>
-              <p style={{fontSize:"30px",display:"flex", justifyContent:"center"}}>Unsere Referenzen</p>
-              <p style={{fontSize:"30px",display:"flex", justifyContent:"center"}}>Sehen Sie hier wie wir anderen Ärzten und Praxen zu einem frischeren Online-Auftritt verholfen haben. </p>
+              <p >Homepage für Ärzte</p>
+              <p >Unsere Referenzen</p>
+              <p >Sehen Sie hier wie wir anderen Ärzten und Praxen zu einem frischeren Online-Auftritt verholfen haben. </p>
           </div>
           <div className="ref_exmp" >
+              <div className="ref2">
               <div className="exmp_lhs">
              <p style={{color:"#E8505B"}}>Allgemeinarztpraxis Dr.Dettner</p><br></br>
               
@@ -44,8 +46,9 @@ class   Refer extends Component {
               </div>
 
           </div>
+          </div>
          
-
+          </div>
           </div>
      
     );

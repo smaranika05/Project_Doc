@@ -14,90 +14,107 @@ class Sec3 extends Component {
         <div className="sec3_wrapper">
           {/* <h1><FaRocket ></FaRocket></h1> */}
           <div className="card_c">
-            <div className="line1">
-              <Card
-                style={{
-                  width: "300px",
-                  boxShadow: "0 8px 16px 0 rgba(0,0,0,0.2)",
-                  marginRight: "100px",
-                }}
-              >
+            <div
+              className="line1"
+              data-aos="fade-right"
+              data-aos-offset="300"
+              // data-aos-easing="ease-in-sine"
+            >
+              <div className="card_section">
                 <div className="li">
                   <ul>
                     <p>
                       Wir optimieren
-                      <FaRocket style={{ color: "#E8505B" }} />
+                      <FaRocket
+                        style={{
+                          color: "#E8505B",
+                          fontWeight: "bold",
+                          fontSize: "20px",
+                        }}
+                      />
                     </p>
                     <li>Suchmaschinenoptimiert</li>
                     <li>Endgerät-optimiert</li>
                     <li>Spezifisch für Ihr Fachgebiet</li>
                   </ul>
                 </div>
-              </Card>
+              </div>
               <br></br>
-              <Card
-                style={{
-                  width: "300px",
-                  boxShadow: "0 8px 16px 0 rgba(0,0,0,0.2)",
-                }}
-              >
+              <div className="card_section">
                 <div className="li">
                   <ul>
                     <p>
                       Wir designen
-                      <FaPencilRuler style={{ color: "#E8505B" }} />
+                      <FaPencilRuler
+                        style={{
+                          color: "#E8505B",
+                          fontWeight: "bold",
+                          fontSize: "20px",
+                        }}
+                      />
                     </p>
                     <li>Frisches und modernes Design</li>
                     <li>Hohe Individualität</li>
                     <li>User-experience optimiert</li>
                   </ul>
                 </div>
-              </Card>
+              </div>
             </div>
             <br></br>
-            <div className="line2">
-              <Card
-                style={{
-                  width: "300px",
-                  boxShadow: "0 8px 16px 0 rgba(0,0,0,0.2)",
-                  marginRight: "100px",
-                }}
-              >
+            <div
+              className="line2"
+              data-aos="fade-left"
+              data-aos-offset="300"
+              // data-aos-easing="ease-in-sine"
+            >
+              <div className="card_section">
                 <div className="li">
                   <ul>
                     <p>
                       Wir pflegen
-                      <FaLaptop style={{ color: "#E8505B" }} />
+                      <FaLaptop
+                        style={{
+                          color: "#E8505B",
+                          fontWeight: "bold",
+                          fontSize: "20px",
+                        }}
+                      />
                     </p>
                     <li>Regelmäßige Updates und Backups</li>
                     <li>Oder pflegen Sie selbst</li>
                   </ul>
                 </div>
-              </Card>
-              <Card
-                style={{
-                  width: "300px",
-                  boxShadow: "0 8px 16px 0 rgba(0,0,0,0.2)",
-                }}
-              >
+              </div>
+              <br></br>
+              <div className="card_section">
                 <div className="li">
                   <ul>
                     <p>
                       Wir skalieren
-                      <BsArrowsAngleExpand style={{ color: "#E8505B" }} />
+                      <BsArrowsAngleExpand
+                        style={{
+                          color: "#E8505B",
+                          fontWeight: "bold",
+                          fontSize: "20px",
+                        }}
+                      />
                     </p>
                     <li>Zusätzliche Sprachen</li>
                     <li>Zusätzliche Inhalte und Menüpunktet</li>
                     <li>Zusätzliche Terminbuchungs-Formulare</li>
                   </ul>
                 </div>
-              </Card>
+              </div>
             </div>
           </div>
         </div>
         <div className="sec4">
           <div className="four_li">
-            <div className="four_lhs">
+            <div
+              className="four_lhs"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+            >
               <div className="li">
                 <p>
                   praxis-website.de ist ein Projekt von softsourced. Seit mehr

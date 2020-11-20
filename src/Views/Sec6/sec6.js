@@ -15,7 +15,7 @@ class Sec6 extends Component {
     return (
       <div className="sec6_wrap">
         <div className="wrap_sec6">
-          <div className="six_lhs">
+          <div className="six_lhs" data-aos="fade-up" data-aos-duration="1500">
             <p>Die perfekte und optimierte Webseite für Ihre Arztpraxis</p>
             <p>
               Verschwenden Sie ihre wertvolle Zeit nicht mit dem Bau oder Umbau
@@ -29,7 +29,16 @@ class Sec6 extends Component {
             </p>
           </div>
           <div className="six_rhs">
-            <img src={Comp2} />
+            <div
+              className="gradient"
+              data-aos="fade-left"
+              //data-aos-offset="300"
+              data-aos-duration="1500"
+              //data-aos-easing="ease-in-sine"
+            ></div>
+            <div className="grad_img">
+              <img src={Comp2} />
+            </div>
           </div>
         </div>
         <div className="icon_sec">
@@ -70,35 +79,42 @@ class Sec6 extends Component {
             Arztpraxis umsetzen.{" "}
           </p>
         </div>
-        <div className="six_next">
-          <div className="wrap_six_next">
-            <p>
-              Zeit ist Geld – und das nehmen wir uns zu Herzen. Dank zahlreicher
-              Webseiten-Projekte mitbayerischen Ärzten, kennen wir die
-              Bedürfnisse unseres Kundenstamms sehr gut. Lückenlos gefüllte
-              Terminkalender sind wichtig – und dabei wollen wir Sie
-              unterstützen. Wir versuchen gerade die Umsetzung unserer Homepages
-              für Ärzte und Zahnärzte besonders effizient zu gestalten – damit
-              Sie Zeit für das wirklich wichtige haben – Ihre Patienten.
-            </p>
-            <p className="style_p">Marc Müller, geschäftsführer softsourced</p>
+        <div data-aos="fade-up" data-aos-duration="1500">
+          <div className="six_next">
+            <div className="wrap_six_next">
+              <p>
+                Zeit ist Geld – und das nehmen wir uns zu Herzen. Dank
+                zahlreicher Webseiten-Projekte mitbayerischen Ärzten, kennen wir
+                die Bedürfnisse unseres Kundenstamms sehr gut. Lückenlos
+                gefüllte Terminkalender sind wichtig – und dabei wollen wir Sie
+                unterstützen. Wir versuchen gerade die Umsetzung unserer
+                Homepages für Ärzte und Zahnärzte besonders effizient zu
+                gestalten – damit Sie Zeit für das wirklich wichtige haben –
+                Ihre Patienten.
+              </p>
+              <p className="style_p">
+                Marc Müller, geschäftsführer softsourced
+              </p>
+            </div>
           </div>
-        </div>
-        <div className="contact">
-          <h1>Gerne beraten wir Sie persönlich!</h1>
-          <div className="icons3">
-            <p style={{ fontSize: "25px" }}>
-              <AiTwotonePhone style={{ color: "#E8505B", fontSize: "25px" }} />
-              +49 179 415 90 70
-            </p>
-            <br></br>
-            <p style={{ fontSize: "25px" }}>
-              <MdEmail style={{ color: "#E8505B", fontSize: "25px" }} />
-              info@softsourced.de
-            </p>
-          </div>
-          <div className="inner">
-            <button className="btn">Zu den Homepage-Paketen</button>
+          <div className="contact">
+            <h1>Gerne beraten wir Sie persönlich!</h1>
+            <div className="icons3">
+              <p style={{ fontSize: "25px" }}>
+                <AiTwotonePhone
+                  style={{ color: "#E8505B", fontSize: "25px" }}
+                />
+                +49 179 415 90 70
+              </p>
+              <br></br>
+              <p style={{ fontSize: "25px" }}>
+                <MdEmail style={{ color: "#E8505B", fontSize: "25px" }} />
+                info@softsourced.de
+              </p>
+            </div>
+            <div className="inner">
+              <button className="btn">Zu den Homepage-Paketen</button>
+            </div>
           </div>
         </div>
       </div>
