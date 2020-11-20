@@ -67,7 +67,7 @@
         .exmp_rhs{
             display: flex;
         float: right;
-        width: 50%;
+        width: 60%;
         justify-content: flex-end;
         padding: 150px 40px 0px 100px;
         .gradient {
@@ -76,12 +76,12 @@
             width: 400px;
             position: absolute;
             right: 0px;
-            padding: 150px 40px 0px 100px;
+            padding: 150px 40px 0px 60px;
           }
           .ref_img {
             position: relative;
             padding-top: 60px;
-            padding-right: 60px;
+            padding-right: 0px;
             // left: -400px;
             // top: 40px;
           }
