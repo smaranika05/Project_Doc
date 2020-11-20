@@ -7,6 +7,7 @@ import "./homepage.scss";
 class App extends Component {
   render() {
     return (
+      
       <div className="home_wrap">
         <div className="part1">
           <Root />
@@ -21,6 +22,7 @@ class App extends Component {
           <Sec6 />
         </div>
       </div>
+     
     );
   }
 }

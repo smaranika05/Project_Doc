@@ -168,3 +168,71 @@
     }
   }
 }
+@media screen and (max-width: 700px){
+  .main_wrap {
+  
+  
+    .sec3_wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  
+      .card_c {
+        display: flex;
+        flex-direction: column;
+        padding-left: 150px;
+        .card_section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+        }
+       
+        // justify-content: center;
+        .line1 {
+          // margin-top: 10px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+        }
+        .line2 {
+          // margin-top: 50px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+        }
+      
+        
+      }
+    }}
+    .sec4 {
+     
+      .four_li {
+        display: flex;
+        flex-direction: column-reverse;
+        .four_lhs {
+         
+          display: flex;
+          /* justify-content: center; */
+          /* align-items: center; */
+          flex-direction: column;
+          width: 100%;
+          padding: 0px 1px 0px 100px;
+         
+         
+        }
+  
+        .four_rhs {
+         
+      }
+    }}
+    .sec5 {
+      // padding: 600px 50px 0px 100px;
+      margin-top: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+      
+    }}

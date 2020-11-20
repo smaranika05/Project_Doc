@@ -70,9 +70,21 @@
         width: 50%;
         justify-content: flex-end;
         padding: 150px 40px 0px 100px;
-            img{
-                width: 100%;
-            }
+        .gradient {
+            background: linear-gradient(20deg, #cf149d 70%, #e8505c 100%);
+            height: 500px;
+            width: 400px;
+            position: absolute;
+            right: 0px;
+            padding: 150px 40px 0px 100px;
+          }
+          .ref_img {
+            position: relative;
+            padding-top: 60px;
+            padding-right: 60px;
+            // left: -400px;
+            // top: 40px;
+          }
         }
     }
   }}
@@ -100,8 +112,11 @@
         width: auto;
         
         padding: 80px 10px;
+        .gradient {
+           display: none;
+          }
     
-            img{
+            .ref_img{
                 width: 100%;
             }
     }
@@ -133,11 +148,18 @@
         .exmp_rhs{
             width: auto;
             padding: 10px 10px;
+            .gradient {
+                display: none;
+               }
+         
+                 .ref_img{
+                    width: 100%;
+                    padding-top: 60px;
+                    padding-right: 30px
+                 }
        
       
-            img{
-                width: 100%;
-            }
+           
         }
   }}
 }

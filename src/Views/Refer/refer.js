@@ -41,7 +41,15 @@ class   Refer extends Component {
               <p>www.drdettner.de</p>
               </div>
               <div className="exmp_rhs">
-                  <img src={Dig} alt="Praxis" style={{boxShow:"0 8px 16px 0 rgba(0,0,0,0.2)"}}/>
+              <div
+              className="gradient"
+              data-aos="fade-left"
+              //data-aos-offset="300"
+              data-aos-duration="1500"
+              //data-aos-easing="ease-in-sine"
+            ></div>
+            <div className="ref_img">
+                  <img src={Dig} alt="Praxis" style={{boxShow:"0 8px 16px 0 rgba(0,0,0,0.2)"}}/></div>
 
               </div>
 

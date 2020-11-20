@@ -11,24 +11,27 @@ import Blog from "./Views/Blog/blog";
 import Home from "./Views/Homepage/homepage";
 import Header from "./Components/Header/header";
 import Pakt from "./Views/Pakete/pakete";
+import BlogPage from "./Views/Blogpage/Blogpage";
 
 import './App.css';
 
 
 function App() {
   return (
-  // <Cardp/>
-  // <Sec3/>
  
+  // <BlogPage/>
+  <Sec3/>
+
     // <Kont/>
-   <Router>
-     <Header />
-    <Route exact path="/" component={Home} />
-    <Route exact path="/Referenzen" component={Refer} />
-    <Route exact path="/Kontakt" component={Kont} />
-    <Route exact path="/Blogs" component={Blog} />
-    <Route exact path="/Pakete" component={Pakt} />
-  </Router>
+  //  <Router>
+  //    <Header />
+  //    <Route path="/blog/:author/:blogid" component={BlogPage} />
+  //   <Route exact path="/" component={Home} />
+  //   <Route exact path="/Referenzen" component={Refer} />
+  //   <Route exact path="/Kontakt" component={Kont} />
+  //   <Route exact path="/Blogs" component={Blog} />
+  //   <Route exact path="/Pakete" component={Pakt} />
+  // </Router>
   );
 }
 

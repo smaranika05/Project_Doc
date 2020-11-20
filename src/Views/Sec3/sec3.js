@@ -18,7 +18,7 @@ class Sec3 extends Component {
               className="line1"
               data-aos="fade-right"
               data-aos-offset="300"
-              // data-aos-easing="ease-in-sine"
+            // data-aos-easing="ease-in-sine"
             >
               <div className="card_section">
                 <div className="li">
@@ -65,7 +65,7 @@ class Sec3 extends Component {
               className="line2"
               data-aos="fade-left"
               data-aos-offset="300"
-              // data-aos-easing="ease-in-sine"
+            // data-aos-easing="ease-in-sine"
             >
               <div className="card_section">
                 <div className="li">

@@ -1,9 +1,11 @@
 .blog_s {
-    padding: 40px 0px;
+    padding: 30px 0px;
   
     border-bottom: 15px solid ;
     a {
       font-weight: normal;
+      text-decoration: none;
+      color: black;
     }
   }
   .blog_articles {
@@ -13,11 +15,16 @@
   
   .blog_article {
     padding: 20px;
+    width: 300px;
     
   
     .title {
       text-align: left;
-      height: 80px;
+      height: 20px;
+      width:380px;
+      h1{
+        font-size: 20px;
+      }
     }
     img {
       width: 100%;
@@ -29,13 +36,21 @@
       border-radius: 10px;
       overflow: hidden;
       box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
     .content_wrapper {
-      width: 320px;
+      width: 400px;
     }
     .desc {
       font-size: 12px;
+      padding-top: 70px;
+      width: 300px;
       text-align: left;
+      a{
+        color: #e8505b;
+      }
     }
     .links {
       display: block;
@@ -43,25 +58,31 @@
       margin: 5px 5px 0 0;
       color: blue;
     }
-  }
+  
   
   .author {
-    margin-top: 10px;
+  
     display: flex;
-    align-items: center;
-    justify-content: left;
+    flex-direction: row;
+    // height: 30px;
+    
     &_img_wrapper {
+      margin-top: 30px;
       width: 30px;
       height: 30px;
       border-radius: 50%;
       img {
         border-radius: 50%;
       }
-      margin-right: 6px;
     }
+    .author_name desc{
+      margin-top: 0px;
+    }
+    .author_date desc{
+      padding-top: 0px;
+      display: flex;
     
-    &_name {
-      color: black;
+    justify-content: left;
     }
-  }
+  }}
   

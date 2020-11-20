@@ -1,16 +1,14 @@
 {
-    "title": "BLOGPOSTS",
-    "desc": "In our blog, we publish articles that are of technical nature or about our company to keep you up to speed with latest developments.",
     "blogitems": [
       {
-        "bId": "payment_provider",
+        "bId": "blog2",
         "author": ["MARC", "MUELLER"],
         "date": "18th September 2020",
         "blogtitle": "Payment Providers",
         "blogdesc": "softsourced combines the best developers and designers with proprietary tools and artificial intelligence – making software development easy and transparent.Try these out for the latest blog and update me as well...."
       },
       {
-        "bId": "payment",
+        "bId": "blog1",
         "author": ["MARC", "MUELLER"],
         "date": "11th September 2020",
         "blogtitle": "How Payment Gateways, Credit Cards, Banks And External Payment Providers Fit Into The Payment Landscape Online",
