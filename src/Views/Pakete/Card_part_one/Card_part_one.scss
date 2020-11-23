@@ -1,0 +1,83 @@
+.Card_part_one {
+  .Card_part_one_wrap {
+    h1 {
+      color: #e8505b;
+      text-align: center;
+    }
+    .card_bind {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 50%;
+        .card_section {
+          padding: 5px;
+          width: 300px;
+          height: 200px;
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          margin-right: 20px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .wrap_cards {
+            p {
+              font-size: 20px;
+              font-weight: 500;
+              display: flex;
+              justify-content: center;
+              line-height: 2;
+              margin: 0px;
+            }
+            .checkmark {
+              position: absolute;
+              top: 0;
+              left: 0;
+              height: 25px;
+              width: 25px;
+              background-color: #eee;
+              border-radius: 50%;
+            }
+          }
+        }
+      }
+      /* On mouse-over, add a grey background color */
+      .container:hover input .checkmark {
+        background-color: #ccc;
+      }
+
+      /* When the radio button is checked, add a blue background */
+      .container input:checked .checkmark {
+        background-color: #e8505b;
+      }
+    }
+  }
+}
+@media screen and (max-width: 700px) {
+  .Card_part_one {
+    .Card_part_one_wrap {
+      h1 {
+        font-size: 20px;
+      }
+      .card_bind {
+        .wrapper {
+          .card_section {
+            margin-top: 20px;
+            padding: 5px;
+            width: 200px;
+            height: 150px;
+
+            .wrap_cards {
+              p {
+                font-size: 12px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
