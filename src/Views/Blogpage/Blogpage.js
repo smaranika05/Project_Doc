@@ -70,11 +70,7 @@ class BlogPage extends Component {
               }
           </div>
 
-          <div className="wrapper">
-            <a href="/#CONTACT" class="button">
-              GET IN TOUCH
-            </a>
-          </div>
+         
         </Container>
       </div>
     );

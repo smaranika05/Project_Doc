@@ -10,23 +10,23 @@ class   Refer extends Component {
        <div className="refer">
       <div className="refer_wrap">
           <div className="ref_one">
-          <div className="refer_lhs">
+          <div className="refer_lhs" data-aos="fade-up" data-aos-duration="1000">
               <p style={{color:"#E8505B"}}> Unsere Praxis Webseiten <span style={{color:"black"}}>– </span></p>
               <p> Modernes und frisches Webseiten-Design für <span  style={{color:"#E8505B"}}>Arztpraxen</span> und <span style={{color:"#E8505B"}} >Zahnarztpraxen</span></p>
 
           </div>
-          <div className="refer_rhs">
+          <div className="refer_rhs" data-aos="fade-up" data-aos-duration="1000">
               <img src={Doc1} alt="Praxis"/>
           </div>
           </div>
-          <div className="ref_text" >
+          <div className="ref_text" data-aos="fade-up" data-aos-duration="1000">
               <p >Homepage für Ärzte</p>
               <p >Unsere Referenzen</p>
               <p >Sehen Sie hier wie wir anderen Ärzten und Praxen zu einem frischeren Online-Auftritt verholfen haben. </p>
           </div>
-          <div className="ref_exmp" >
+          <div className="ref_exmp"  >
               <div className="ref2">
-              <div className="exmp_lhs">
+              <div className="exmp_lhs" data-aos="fade-up" data-aos-duration="1000">
              <p style={{color:"#E8505B"}}>Allgemeinarztpraxis Dr.Dettner</p><br></br>
               
               <p style={{color:"#E8505B"}}> Paket: </p>
@@ -40,7 +40,7 @@ class   Refer extends Component {
               <p style={{color:"#E8505B"}}>Website:</p>
               <p>www.drdettner.de</p>
               </div>
-              <div className="exmp_rhs">
+              <div className="exmp_rhs" data-aos="fade-up" data-aos-duration="1000">
               <div
               className="gradient"
               data-aos="fade-left"

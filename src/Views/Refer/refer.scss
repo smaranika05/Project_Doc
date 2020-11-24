@@ -1,5 +1,6 @@
 .refer
 {overflow-x: hidden;
+    overflow-y: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -89,7 +90,7 @@
     }
   }}
 }
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1147px){
     .refer
 {
     .refer_wrap{
@@ -111,10 +112,8 @@
     .refer_rhs{
         width: auto;
         
-        padding: 80px 10px;
-        .gradient {
-           display: none;
-          }
+        padding: 80px 100px 0px 0px;
+       
     
             .ref_img{
                 width: 100%;
