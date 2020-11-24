@@ -163,6 +163,9 @@
         justify-content: center;
         .anime_one,
         .anime_two {
+          position: unset;
+          // bottom: 0;
+          transition: none;
           display: flex;
           align-items: center;
           justify-content: center;

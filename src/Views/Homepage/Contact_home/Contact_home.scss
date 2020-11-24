@@ -1,0 +1,111 @@
+.Contact_home_wrap {
+  .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 50px;
+    .wrap_about {
+      width: 70%;
+      p {
+        text-align: justify;
+      }
+      p.style_p {
+        font-size: 20px;
+        color: #e8505b;
+        text-align: center;
+      }
+    }
+  }
+  .contact {
+    h1 {
+      text-align: center;
+      font-weight: 400;
+      //   margin: 0px;
+    }
+    .icons3 {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+      // justify-content: space-between;
+      .icons1_flex {
+        display: flex;
+        margin: 20px;
+        .icons {
+          color: #e8505b;
+          font-size: 42px;
+          margin: 20px 0px 0px 0px;
+        }
+        p {
+          font-size: 26px;
+          font-weight: 400;
+        }
+      }
+    }
+    .inner {
+      display: flex;
+      justify-content: center;
+      .btn {
+        background-color: white;
+        width: 300px;
+        height: 50px;
+        border-color: #e8505b;
+        color: #e8505b;
+        text-decoration: none;
+        font-size: 15px;
+        letter-spacing: 0px;
+        margin: 20px 20px;
+        border-radius: 8px;
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .Contact_home_wrap {
+    .about {
+      padding: 20px 20px;
+      .wrap_about {
+        width: 70%;
+        p {
+          text-align: center;
+        }
+      }
+    }
+    .contact {
+      h1 {
+        text-align: center;
+        font-size: 25px;
+        //   margin: 0px;
+      }
+      .icons3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 10px;
+        // justify-content: space-between;
+        .icons1_flex {
+          display: flex;
+          margin: 0px;
+          .icons {
+            color: #e8505b;
+            font-size: 36px;
+            margin: -14px 0px 0px 0px;
+          }
+          p {
+            font-size: 20px;
+            margin: 0px;
+          }
+        }
+      }
+      .inner {
+        .btn {
+          width: 250px;
+          height: 50px;
+        }
+      }
+    }
+  }
+}

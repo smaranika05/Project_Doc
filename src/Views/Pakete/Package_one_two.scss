@@ -152,10 +152,16 @@
       flex-direction: column;
       .comp_lhs {
         width: 100%;
+        position: unset;
+        // bottom: 0;
+        transition: none;
       }
       .comp_rhs {
         width: 100%;
         justify-content: center;
+        position: unset;
+        // bottom: 0;
+        transition: none;
         .comp_rhs_wrap {
           width: 80%;
           p {

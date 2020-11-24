@@ -1,28 +1,40 @@
 import React, { Component } from "react";
-import Root from "./../../Views/Root/root";
-import Card from "./../../Views/Card/card";
-import Sec3 from "./../../Views/Sec3/sec3";
-import Sec6 from "./../../Views/Sec6/sec6";
+import Root from "./Root/root";
+import Price_Card from "./Price_Card/Price_card";
+import Cards from "./Cards/Cards";
+import Sec4 from "./Sec4/Sec4";
+import Sec5 from "./Sec5/sec5";
+import Icon from "./Icon_section/Icon";
+import Contact_home from "./Contact_home/Contact_home";
 import "./homepage.scss";
 class App extends Component {
   render() {
     return (
-      
-      <div className="home_wrap">
-        <div className="part1">
-          <Root />
-        </div>
-        <div className="part2">
-          <Card />
-        </div>
-        <div className="part3">
-          <Sec3 />
-        </div>
-        <div className="part4">
-          <Sec6 />
+      <div className="home">
+        <div className="home_wrap">
+          <div className="part1">
+            <Root />
+          </div>
+          <div className="part2">
+            <Price_Card />
+          </div>
+          <div className="part3">
+            <Cards />
+          </div>
+          <div className="part4">
+            <Sec4 />
+          </div>
+          <div className="part5">
+            <Sec5 />
+          </div>
+          <div className="part6">
+            <Icon />
+          </div>
+          <div className="part7">
+            <Contact_home />
+          </div>
         </div>
       </div>
-     
     );
   }
 }
