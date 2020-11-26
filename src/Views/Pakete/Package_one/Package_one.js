@@ -65,7 +65,7 @@ class Package_one extends Component {
               <div className="card_head_pink">Inkludierte Leistungen</div>
               <div className="card_cont_pink">
                 <p> Homepage Arzt Light</p>
-                <p>1.990€</p>
+                <p>1.490€</p>
                 <p>exkl. MwSt.</p>
                 <p>+491794159070</p>
                 <p>contact@softsourced.de</p>

@@ -13,8 +13,8 @@ class Contact_home extends Component {
             <div className="wrap_about">
               <p>
                 "Zeit ist Geld – und das nehmen wir uns zu Herzen. Dank
-                zahlreicher Webseiten-Projekte mitbayerischen Ärzten, kennen wir
-                die Bedürfnisse unseres Kundenstamms sehr gut. Lückenlos
+                zahlreicher Webseiten-Projekte mit bayerischen Ärzten, kennen
+                wir die Bedürfnisse unseres Kundenstamms sehr gut. Lückenlos
                 gefüllte Terminkalender sind wichtig – und dabei wollen wir Sie
                 unterstützen. Wir versuchen gerade die Umsetzung unserer
                 Homepages für Ärzte und Zahnärzte besonders effizient zu

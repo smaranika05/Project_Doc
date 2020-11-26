@@ -19,10 +19,9 @@ function Footer() {
         </div>
         <div class="address">
           <div className="align">
-            <p>Kissinger Straße 42</p>
+            <p>Karlsbaderstr. 20</p>
             <p>97762 Hammelburg</p>
-            <p>09732-1247</p>
-            <p>dr.dettner@gmail.com</p>
+            <p>+49 179 4159070</p>
           </div>
         </div>
         <div class="links">
@@ -37,7 +36,7 @@ function Footer() {
       </div>
       <div className="divider"></div>
       <div className="end_line">
-        <div className="left">© 2020 Praxis Dr. Dettner</div>
+        <div className="left">© 2020 softsourced</div>
         <div className="right">
           Entwickelt von
           <a

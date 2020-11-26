@@ -30,7 +30,7 @@ export default function Card_part_one() {
                 <div className="card_section">
                   <div className="wrap_cards">
                     <p>Homepage</p>
-                    <p>Artz</p>
+                    <p>Arzt</p>
                     <p>ab 1.950,- € (inkl. MwSt.)</p>
                     <p>
                       <FormControlLabel value="one" control={<Radio />} />
@@ -40,7 +40,7 @@ export default function Card_part_one() {
                 <div className="card_section">
                   <div className="wrap_cards">
                     <p>Homepage</p>
-                    <p>Artz+</p>
+                    <p>Arzt +</p>
                     <p>ab 2.950,- € (inkl. MwSt.)</p>
                     <p>
                       <FormControlLabel value="two" control={<Radio />} />

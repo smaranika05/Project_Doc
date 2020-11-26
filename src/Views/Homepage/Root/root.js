@@ -2,9 +2,10 @@ import React, { Component } from "react";
 import Doc from "./../../../Assets/Doc.png";
 import one from "./../../../Assets/one.png";
 import two from "./../../../Assets/two.png";
-
+import svg from "./../../../Assets/arrow.svg";
 // import { BrowserRouter as Router, Route,Link } from "react-router-dom";
 import "./root.scss";
+
 class Root extends Component {
   render() {
     return (
@@ -15,8 +16,9 @@ class Root extends Component {
           data-aos-duration="3000"
         >
           <div className="content">
-            <h1>Digitalisieren Sie Iher Praxis</h1>
+            <h1>Digitalisieren Sie Ihre Praxis</h1>
             <p>Professionelle Webseiten für Ärzte und Zahnärzte</p>
+
             <div className="listing">
               <ul>
                 <li>Homepage für Ärzte</li>

@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "./../../Assets/praxis-logo.png";
 import "./header.scss";
-import { useHistory, NavLink } from "react-router-dom";
+
 import { Link } from "react-router-dom";
 class Header extends React.Component {
   constructor(props) {
@@ -43,7 +43,7 @@ class Header extends React.Component {
           useNavLink: true,
         },
         {
-          linkName: "Contact",
+          linkName: "Kontakt",
           linkAdd: "Kontakt",
           active: false,
           useNavLink: true,
@@ -90,10 +90,13 @@ class Header extends React.Component {
 
   render() {
     const navlinks = this.state.navLinks.map((navLink) => {
+      const location = window.location.pathname;
+      const color =
+        location === navLink ? { color: "red" } : { color: "black" };
       return (
         <div className="navLink" onClick={this.handleHamburger}>
           {navLink.useNavLink && (
-            <Link smooth to={`/${navLink.linkAdd}`}>
+            <Link smooth to={`/${navLink.linkAdd}`} className={color}>
               {navLink.linkName}
             </Link>
           )}

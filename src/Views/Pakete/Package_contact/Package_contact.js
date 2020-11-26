@@ -1,11 +1,14 @@
 import React, { Component } from "react";
-
+import { animateScroll as scroll } from "react-scroll";
 import { AiTwotonePhone } from "react-icons/ai";
 import { MdEmail } from "react-icons/md";
 
 import "./Package_contact.scss";
 class Package_contact extends Component {
   render() {
+    function scrollToTop() {
+      scroll.scrollToTop(-400);
+    }
     return (
       <div className="pakete_contact_wrap">
         <div className="cont_form">
@@ -59,7 +62,9 @@ class Package_contact extends Component {
             </div>
           </div>
           <div className="inner">
-            <button className="btn">Zu den Homepage-Paketen</button>
+            <a onClick={scrollToTop}>
+              <button className="btn">Zu den Homepage-Paketen</button>
+            </a>
           </div>
         </div>
       </div>

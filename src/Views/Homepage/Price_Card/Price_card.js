@@ -14,11 +14,11 @@ class Cardp extends Component {
         >
           <div className="text_wapping">
             <h1>
-              Ob Neugestaltung des Internetauftritt Ihrer Praxis, oder
+              Ob Neugestaltung des Internetauftritts Ihrer Praxis, oder
               Umgestaltung von bestehenden Websites{" "}
             </h1>
             <p>
-              Wir unterstützen Sie mit unserer Expertise zu gutem
+              Wir unterstützen Sie mit unserer Expertise zu einem gutem
               Preis-Leistungs-Verhältnis:
             </p>
           </div>

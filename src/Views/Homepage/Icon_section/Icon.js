@@ -7,7 +7,7 @@ import { AiTwotonePhone } from "react-icons/ai";
 import { MdEmail } from "react-icons/md";
 import { BsReverseLayoutTextWindowReverse } from "react-icons/bs";
 import Comp2 from "./../../../Assets/b-mock.png";
-
+import Svg from "./svg_right";
 // import { BrowserRouter as Router, Route,Link } from "react-router-dom";
 import "./Icon.scss";
 class Icon extends Component {
@@ -24,35 +24,14 @@ class Icon extends Component {
               </p>
               <p>Definieren der Projektanforderungen</p>
             </div>
-            {/* <svg>
-              <defs>
-                <marker
-                  id="m"
-                  markerWidth="4"
-                  markerHeight="8"
-                  refX="0"
-                  refY="1"
-                  viewBox="0 0 1 2"
-                >
-                  <polygon points="0,0 1,1 0,2" fill="black" />
-                </marker>
-              </defs>
-              <line
-                x1="0"
-                y1="50%"
-                x2="100%"
-                y2="50%"
-                stroke-width="2"
-                marker-end="url(#m)"
-                stroke="black"
-              />
-            </svg> */}
+
             <div className="icons1_flex">
               <p className="icons">
                 <MdMessage />
               </p>
               <p>Content-Erstellung (Bilder, Texte)</p>
             </div>
+
             <div className="icons1_flex">
               <p className="icons">
                 <FaLaptopCode />

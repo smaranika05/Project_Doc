@@ -69,7 +69,7 @@ class Sec3 extends Component {
                       <p>Wir pflegen</p>{" "}
                     </div>
                     <li>Regelmäßige Updates und Backups</li>
-                    <li>Oder pflegen Sie selbst</li>
+                    <li>Sicherheitschecks</li>
                   </ul>
                 </div>
               </div>
