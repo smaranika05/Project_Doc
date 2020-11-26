@@ -14,7 +14,9 @@ class Blog extends Component {
       };
     }
   }
-
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     const imgUrl = {
       General_Practitioner: {
@@ -38,17 +40,15 @@ class Blog extends Component {
             <a href={`/Blog/${blogPost.bId}/`} key={blogPost.bId}>
               <div className="blog_article" key={blogPost.bId}>
                 <div className="img_wrapper">
-                  <picture>
-                    <source
-                      srcSet={imgUrl[blogPost.bId].imgURL_art[1]}
-                      type="image/webp"
-                    />
-                    <img
-                      src={imgUrl[blogPost.bId].imgURL_art[0]}
-                      alt="blog image"
-                      loading="lazy"
-                    />
-                  </picture>
+                  <source
+                    srcSet={imgUrl[blogPost.bId].imgURL_art[1]}
+                    type="image/webp"
+                  />
+                  <img
+                    src={imgUrl[blogPost.bId].imgURL_art[0]}
+                    alt="blog image"
+                    loading="lazy"
+                  />
                 </div>
                 <div className="content_wrapper">
                   <div className="title">

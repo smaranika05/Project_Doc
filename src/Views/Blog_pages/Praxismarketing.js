@@ -330,6 +330,29 @@ const Praxismarketing = (props) => {
             Schriftzug am meisten Vertrauen beim Kunden aufbaut.
           </li>
         </ol>
+        <p>
+          In der Theorie wissen Sie jetzt also, wie eine Praxis-Website für ein
+          optimales Praxismarketing auszusehen hat. Wollen Sie nun Ihre eigene
+          Praxis-Website haben? Dann sind sie bei softsourced an der richtigen
+          Stelle.
+        </p>
+        <p>
+          Sie haben die Wahl zwischen{" "}
+          <a
+            href="http://praxisweb.s3-website.ap-south-1.amazonaws.com/Pakete"
+            target="_blank"
+            style={{
+              color: "black",
+              cursor: "pointer",
+              textDecoration: "none",
+              fontWeight: "600",
+            }}
+          >
+            zwei Paketen:
+          </a>
+          1) Homepage Arzt und 2) Homepage Arzt Plus.
+        </p>
+        <p>Nach spätestens zwei Woche steht Ihre neue Praxis-Website!</p>
       </div>
     </>
   );
