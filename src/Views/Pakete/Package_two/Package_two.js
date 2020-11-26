@@ -13,10 +13,9 @@ class Package_two extends Component {
           <div className="comp_rhs">
             <div className="comp_rhs_wrap">
               <p>Homepage Arzt Plus</p>
-              <p>Praxishomepage mit ausgiebigerem</p>
+              <p>Praxishomepage mit ausgiebigerem Leistungsspektrum, </p>
               <p>
-                Leistungsspektrum, ideal für Großpraxen, die umfangreicher
-                informieren möchten.
+                ideal für Großpraxen, die umfangreicher informieren möchten.
               </p>
               <p>Die Umsetzung dauert in etwa 10 Tage.</p>
             </div>

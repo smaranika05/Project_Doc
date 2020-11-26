@@ -5,6 +5,9 @@ import { AiFillPhone } from "react-icons/ai";
 import { GrMail } from "react-icons/gr";
 import "./refer.scss";
 class Refer extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <div className="refer">

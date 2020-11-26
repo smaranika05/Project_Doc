@@ -1,10 +1,13 @@
 import React, { Component } from "react";
-
+import { animateScroll as scroll } from "react-scroll";
 // import { BrowserRouter as Router, Route,Link } from "react-router-dom";
 import Comp1 from "./../../../Assets/a-mock.png";
 import "./Sec4.scss";
 class Sec4 extends Component {
   render() {
+    function scrollToTop() {
+      scroll.scrollToTop(-400);
+    }
     return (
       <div className="sec4_wrap">
         <div className="sec4">
@@ -16,13 +19,23 @@ class Sec4 extends Component {
             >
               <div className="li">
                 <p>
-                  praxis-website.de ist ein Projekt von softsourced. Seit mehr
-                  als 3 Jahren entwickeln wir Webseiten und Applikationen für
-                  den Bereich Health-Tech, Food-Tech und Travel-Tech. Unser
-                  Fokus liegt dabei seit der ersten Stunde auf Qualität,
-                  Funktionalität und hoher User-Experience. Kundenzufriedenheit
-                  steht bei uns weiterhin ganz oben, wie unsere Zahlen
-                  bestätigen. Überzeugen Sie sich selbst!
+                  <a onClick={scrollToTop} style={{ cursor: "pointer" }}>
+                    praxis-website.de{" "}
+                  </a>
+                  ist ein Projekt von{" "}
+                  <a
+                    href="https://softsourced.de/"
+                    target="_blank"
+                    style={{ textDecoration: "none", color: "black" }}
+                  >
+                    softsourced
+                  </a>
+                  . Seit mehr als 3 Jahren entwickeln wir Webseiten und
+                  Applikationen für den Bereich Health-Tech, Food-Tech und
+                  Travel-Tech. Unser Fokus liegt dabei seit der ersten Stunde
+                  auf Qualität, Funktionalität und hoher User-Experience.
+                  Kundenzufriedenheit steht bei uns weiterhin ganz oben, wie
+                  unsere Zahlen bestätigen. Überzeugen Sie sich selbst!.
                 </p>
                 <ul>
                   <p>
@@ -41,9 +54,11 @@ class Sec4 extends Component {
               </div>
 
               <div class="inner">
-                <button type="submit" class="Btn1" href="#">
-                  Angebot anfordern
-                </button>
+                <a href="/Pakete">
+                  <button type="submit" className="Btn1">
+                    Angebot anfordern
+                  </button>
+                </a>
               </div>
             </div>
             <div className="four_rhs">
@@ -55,16 +70,18 @@ class Sec4 extends Component {
         <div className="sec4_bottom">
           <div className="bind_sec4_bottom">
             <h2>Kostenlose und unverbindliche Erstberatung</h2>
-            <h2>
+            <p>
               Gerne beantworten wir Ihnen sämtliche Fragen und erläutern unsere
               Pakete und Projektumsetzung.
-            </h2>
-            <h2>Bei uns gibt es keine Mogelpackung!</h2>
+            </p>
+            <p>Bei uns gibt es keine Mogelpackung!</p>
             <div className="inner">
               {" "}
-              <button className="Btn1" href="#">
-                Jetzt unverbindlich Angebot anfordern{" "}
-              </button>
+              <a href="/Pakete">
+                <button className="Btn1" href="#">
+                  Jetzt unverbindlich Angebot anfordern{" "}
+                </button>
+              </a>
             </div>
           </div>
         </div>

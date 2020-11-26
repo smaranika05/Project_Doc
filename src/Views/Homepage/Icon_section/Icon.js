@@ -15,8 +15,8 @@ class Icon extends Component {
     return (
       <div className="icons_wrap">
         <div className="icon_sec">
-          <h1>Ihr Weg zur perfekten Doctor-Website</h1>
-          <p>Wie läuft die Erstellung der Praxishomepage ab?</p>
+          <h2>Ihr Weg zur perfekten Doctor-Website</h2>
+          <h3>Wie läuft die Erstellung der Praxishomepage ab?</h3>
           <div className="icons1">
             <div className="icons1_flex">
               <p className="icons">
@@ -74,11 +74,11 @@ class Icon extends Component {
               <p>Rechtstext-Erstellung (Datenschutzrichtlinien, AGBs)</p>{" "}
             </div>
           </div>
-          <p>
+          <h3>
             Wir bevorzugen den persönlichen Kontakt – aber auch per E-Mail und
             klar definierter Erwartungen können wir die Homepage Ihrer
             Arztpraxis umsetzen.{" "}
-          </p>
+          </h3>
         </div>
       </div>
     );

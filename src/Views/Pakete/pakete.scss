@@ -3,9 +3,12 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-family: Futura;
   .pakete_wrap {
     width: 1700px;
-
+    min-height: calc(100vh - 200px);
     // display: flex;
     // flex-direction: column;
 

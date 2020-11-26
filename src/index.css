@@ -1,8 +1,8 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+    sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
@@ -11,4 +11,15 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@font-face {
+  font-family: "Futura";
+  src: local("Futura"),
+    url(./Font/futura_medium/Futura\ Std\ Medium.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Vivita";
+  src: local("Vivita"),
+    url(./Font//vivita/TTF/VIVITA-Medium.ttf) format("truetype");
 }

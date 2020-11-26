@@ -6,7 +6,7 @@ import Card_part_one from "./Card_part_one/Card_part_one";
 import Card_part_two from "./Card_part_two/Card_part_two";
 import Package_contact from "./Package_contact/Package_contact";
 
-import "./pakete.scss";
+import "./Pakete.scss";
 class App extends Component {
   render() {
     return (

@@ -3,18 +3,18 @@
     "desc": "In our blog, we publish articles that are of technical nature or about our company to keep you up to speed with latest developments.",
     "blogitems": [
       {
-        "bId": "payment_provider",
-        "author": ["MARC", "MUELLER"],
+        "bId": "General_Practitioner",
+        "author": ["MARC", "MÜLLER"],
         "date": "18th September 2020",
-        "blogtitle": "Payment Providers",
-        "blogdesc": "softsourced combines the best developers and designers with proprietary tools and artificial intelligence – making software development easy and transparent.Try these out for the latest blog and update me as well...."
+        "blogtitle": "Scheduling software for General Practitioners",
+        "blogdesc": "We have analysed the 4 best scheduling tools to save you time and money"
       },
       {
-        "bId": "payment",
-        "author": ["MARC", "MUELLER"],
+        "bId": "Praxismarketing",
+        "author": ["MARC", "MÜLLER"],
         "date": "11th September 2020",
-        "blogtitle": "How Payment Gateways, Credit Cards, Banks And External Payment Providers Fit Into The Payment Landscape Online",
-        "blogdesc": "Please fasten your seatbelts. Not too tight though, let me take you on a smooth ride. Imagine yourself in a car strolling on the country road, sitting in the back seat. What you see outside is the..."
+        "blogtitle": "Praxismarketing",
+        "blogdesc": "Die perfekte Praxis-Website mit passendem Arzt-Logo erstellen"
       }
       
     ]

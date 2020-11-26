@@ -1,0 +1,50 @@
+.imp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .imp_wrapper {
+    max-width: 100%;
+
+    .main {
+      padding: 20px 200px 20px 200px;
+      line-height: 1.5;
+      text-align: left;
+      color: #393939;
+      padding-bottom: 100px;
+      overflow-x: hidden;
+      letter-spacing: 1px;
+      word-spacing: 2px;
+      font-family: Futura;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: regular;
+      letter-spacing: 1px;
+      word-break: keep-all;
+      word-spacing: 3px;
+    }
+    .body {
+      p {
+        margin: 0px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .im_wrapper {
+    font-size: 20px;
+    .main {
+      padding: 10px 100px 10px 100px;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .im_wrapper {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+
+    .main {
+      padding: 20px 20px 0px 20px;
+    }
+  }
+}

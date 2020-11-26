@@ -1,0 +1,63 @@
+.header {
+  font-family: Lato;
+  font-style: normal;
+  //font-weight: regular;
+  font-size: 260%;
+  //line-height: 54px;
+  text-align: center;
+  color: #393939;
+  padding-top: 100px;
+}
+
+.border {
+  margin-left: 20%;
+  align-content: center;
+  width: 60%;
+  height: 0px;
+  //left: 11%;
+  // top: 150px;
+  bottom: 100px;
+  border: 1px solid #bcbcbc;
+}
+@media screen and (max-width: 1147px) {
+  .header {
+    font-size: 30px;
+    padding-top: 50px;
+  }
+  .border {
+    width: 40%;
+    margin-left: 30%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .header {
+    font-size: 40px;
+    padding-top: 50px;
+  }
+  .border {
+    width: 60%;
+    margin-left: 20%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .header {
+    font-size: 25px;
+    padding-top: 50px;
+  }
+  .border {
+    width: 60%;
+    margin-left: 20%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .header {
+    font-size: 18px;
+    padding-top: 50px;
+  }
+  .border {
+    width: 60%;
+    margin-left: 20%;
+  }
+}

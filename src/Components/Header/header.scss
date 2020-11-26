@@ -15,7 +15,7 @@
   padding-left: 5px;
   width: 20%;
   img {
-    // width: 90px;
+    width: 90px;
     padding-left: 10px;
     padding-top: 0px;
   }
@@ -37,19 +37,22 @@ object {
   display: flex;
   justify-content: flex-end;
   a {
-    font-family: Lato;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-family: Futura;
     position: relative;
     display: inline-block;
     outline: none;
     text-decoration: none !important;
     color: black;
     padding: 10px 20px;
-    letter-spacing: 1.5px;
+
     font-size: 18px;
     font-weight: 500;
   }
 
-  a:hover {
+  a:hover,
+  a:active {
     color: #e8505b;
     transition: 0.4s;
   }
@@ -84,7 +87,8 @@ object {
     text-decoration: none !important;
     color: black;
   }
-  a:hover {
+  a:hover,
+  a:active {
     transition: 0.4s;
     color: #fff;
   }
@@ -186,13 +190,16 @@ object {
   -o-transform: rotate(-135deg);
   transform: rotate(-135deg);
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1000px) and (min-width: 761px) {
   .header-wrap {
     overflow-y: hidden;
   }
   .brandLogo {
     padding: 6px;
     width: 70%;
+    img {
+      width: 70px;
+    }
   }
   .desktopView {
     display: none;

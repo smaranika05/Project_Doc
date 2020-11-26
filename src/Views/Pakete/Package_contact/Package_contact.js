@@ -34,7 +34,7 @@ class Package_contact extends Component {
                 />
               </div>
               <div>
-                <textarea name="message" placeholder="Type Here" />
+                <textarea name="message" placeholder="Was sollten wir wisen" />
               </div>
             </form>
           </div>

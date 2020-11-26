@@ -38,7 +38,7 @@ class Cardp extends Component {
                   <h1>1.490€</h1>
 
                   <p>
-                    <button href="#">Submit</button>
+                    <button href="#">Zum Angebot</button>
                   </p>
                 </div>
               </div>
@@ -57,7 +57,7 @@ class Cardp extends Component {
 
                   <p>
                     {" "}
-                    <button href="#">Submit</button>
+                    <button href="#">Zum Angebot</button>
                   </p>
                 </div>
               </div>

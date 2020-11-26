@@ -1,7 +1,12 @@
 .sec5_wrap {
   display: flex;
   flex-direction: row;
-  overflow-x: hidden;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-family: Futura;
+
+  // overflow-x: hidden;
+  // overflow-y: hidden;
   .wrap_sec5 {
     width: 100%;
     padding: 50px 0px 50px 0px;
@@ -20,7 +25,7 @@
       //padding:  100px 0px 0px 0px;
       display: flex;
       flex-direction: row;
-      // overflow-x: hidden; // align-items: flex-end;
+      overflow-x: hidden; // align-items: flex-end;
       .gradient {
         background: linear-gradient(20deg, #cf149d 70%, #e8505c 100%);
         height: 500px;

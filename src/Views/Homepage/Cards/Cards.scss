@@ -1,7 +1,9 @@
 .main_wrap {
   display: flex;
   flex-direction: column;
-
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-family: Futura;
   .sec3_wrapper {
     display: flex;
     flex-direction: row;
@@ -66,7 +68,7 @@
           .icons {
             color: #e8505b;
             font-size: 25px;
-            margin: 0px 4px 0px 0px;
+            margin: -4px 10px 0px 0px;
             // margin: 3px 20px;
             -webkit-transition: all 0.3s ease-in-out;
             -moz-transition: all 0.3s ease-in-out;
@@ -79,8 +81,7 @@
       .li {
         margin-left: 0%;
         letter-spacing: 1px;
-        font-family: Lato;
-        font-style: normal;
+
         font-size: 18px;
         color: #393939;
         text-align: left;
@@ -98,13 +99,13 @@
           background-color: #e8505b;
           width: 14px;
           height: 14px;
-          margin-left: -1em;
+          margin-left: -25px;
           /* font-size: 2em; */
           position: relative;
           top: 12px;
           font-style: bold;
           left: 4px;
-          border-radius: 0px 4px 4px 4px;
+          border-radius: 0px 5px 5px 5px;
         }
       }
     }

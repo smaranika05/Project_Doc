@@ -1,8 +1,7 @@
 import React from "react";
 import Logo from "./../../Assets/praxis-logo.png";
 import "./header.scss";
-
-
+import { useHistory, NavLink } from "react-router-dom";
 import { Link } from "react-router-dom";
 class Header extends React.Component {
   constructor(props) {
@@ -39,7 +38,7 @@ class Header extends React.Component {
         },
         {
           linkName: "Blog",
-          linkAdd: "Blogs",
+          linkAdd: "Blog",
           active: false,
           useNavLink: true,
         },
@@ -113,7 +112,7 @@ class Header extends React.Component {
         <div className="header-wrap" ref={this.headerNavbar}>
           <div className="brandLogo">
             <Link smooth to="/">
-             <h1><img src={Logo} alt="Praxis" style={{width:"20%"}}></img></h1>
+              <img src={Logo} alt="Praxis"></img>
             </Link>
           </div>
 

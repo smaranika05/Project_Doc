@@ -3,8 +3,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-family: Futura;
+  margin-bottom: 100px;
   .refer_wrap {
     max-width: 100%;
+    min-height: calc(100vh - 200px);
     .ref_one {
       width: 100%;
       display: flex;
@@ -20,8 +25,8 @@
           width: 80%;
           p {
             text-align: left;
-            font-size: 25px;
-            line-height: 25px;
+            font-size: 30px;
+            line-height: 1.5;
             margin: 15px;
             font-weight: 600;
           }
@@ -60,6 +65,7 @@
           font-size: 20px;
           margin: 0px;
           font-weight: 600;
+          line-height: 1.5;
         }
       }
     }
@@ -82,7 +88,7 @@
             p {
               font-size: 20px;
               font-weight: 800px;
-              line-height: 1.2;
+              line-height: 1.5;
               margin: 0px;
               font-weight: 600;
             }

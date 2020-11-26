@@ -12,17 +12,17 @@ class Contact_home extends Component {
           <div className="about">
             <div className="wrap_about">
               <p>
-                Zeit ist Geld – und das nehmen wir uns zu Herzen. Dank
+                "Zeit ist Geld – und das nehmen wir uns zu Herzen. Dank
                 zahlreicher Webseiten-Projekte mitbayerischen Ärzten, kennen wir
                 die Bedürfnisse unseres Kundenstamms sehr gut. Lückenlos
                 gefüllte Terminkalender sind wichtig – und dabei wollen wir Sie
                 unterstützen. Wir versuchen gerade die Umsetzung unserer
                 Homepages für Ärzte und Zahnärzte besonders effizient zu
                 gestalten – damit Sie Zeit für das wirklich wichtige haben –
-                Ihre Patienten.
+                Ihre Patienten."
               </p>
               <p className="style_p">
-                Marc Müller, geschäftsführer softsourced
+                Marc Müller, Geschäftsführer softsourced
               </p>
             </div>
           </div>
@@ -44,7 +44,9 @@ class Contact_home extends Component {
               </div>
             </div>
             <div className="inner">
-              <button className="btn">Zu den Homepage-Paketen</button>
+              <a href="/Pakete">
+                <button className="btn">Zu den Homepage-Paketen</button>
+              </a>
             </div>
           </div>
         </div>

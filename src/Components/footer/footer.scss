@@ -1,0 +1,144 @@
+.footer_main {
+  // box-sizing: border-box;
+  height: 250px;
+  color: #7b7b7b;
+  background: #1a1a1a;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-family: Futura;
+  p {
+    margin: 3px;
+  }
+  .footer_wrap {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+
+    font-weight: normal;
+    font-size: 16px;
+    color: #7b7b7b;
+    background: #1a1a1a;
+    .logo_footer {
+      float: left;
+      width: 20%;
+
+      //padding: 50px 0 20px 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 100px;
+        object-fit: 100%;
+      }
+    }
+    .address {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 60%;
+      padding: 20px;
+      // .align {
+      //   padding: 20px;
+      // }
+    }
+    .links {
+      float: left;
+      width: auto;
+      padding: 20px;
+      a {
+        font-family: Lato;
+        font-style: none;
+        text-decoration: none;
+        font-weight: normal;
+        font-size: 130;
+        color: #7b7b7b;
+      }
+    }
+  }
+  .divider {
+    margin-left: 40px;
+    width: 93%;
+    height: 0px;
+    border-top: 1px solid #bbb;
+  }
+  .end_line {
+    box-sizing: border-box;
+    display: flex;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    .left {
+      float: left;
+      width: 50%;
+      padding: 10px;
+      margin-left: 25px;
+    }
+    .right {
+      float: right;
+      width: 50%;
+      padding: 20px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end;
+
+      img {
+        width: 100px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 700px) {
+  .footer_main {
+    // height: 100%;
+    // width: 200%;
+    .footer_wrap {
+      font-size: 10px;
+      .logo_footer {
+        // display: flex;
+        // align-items: center;
+        // justify-content: center;
+        padding: 10px;
+        img {
+          width: 35px;
+          object-fit: 100%;
+        }
+      }
+    }
+    .divider {
+      margin-left: 20px;
+      width: 90%;
+    }
+    .end_line {
+      font-size: 10px;
+      .right {
+        img {
+          width: 50px;
+        }
+      }
+    }
+  }
+}
+
+// @media screen and (max-width: 1000px) {
+//   .footer_main {
+//     height: 100%;
+//     // width: 200%;
+//     .footer_wrap {
+//       .logo_footer {
+//         img {
+//           width: 30%;
+//           // height: 30%;
+//           padding: 20px 5px 10px 20px;
+//         }
+//       }
+//     }
+//   }
+//   .divider {
+//     .end_line {
+//       .right {
+//         padding-right: 20%;
+//       }
+//     }
+//   }
+// }

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import blog_en from "./../../Docs/Blog/blog.json";
+import blog_en from "../../Docs/Blog/blog";
 import blog4 from "./../../Assets/blog1.png";
 import "./blog.scss";
 import { Container } from "@material-ui/core";
@@ -15,21 +15,18 @@ class Blog extends Component {
     }
   }
 
- 
   render() {
-    
     const imgUrl = {
-      payment_provider: {
-        imgURL_art: [blog4,blog4],
+      General_Practitioner: {
+        imgURL_art: [blog4, blog4],
         imgURL_aut: author1,
       },
-      payment: {
-        imgURL_art: [blog4,blog4],
+      Praxismarketing: {
+        imgURL_art: [blog4, blog4],
         imgURL_aut: author1,
       },
     };
-    
-   
+
     const blog_articles =
       blog_en &&
       blog_en.blogitems.map((blogPost, idx) => {
@@ -38,7 +35,7 @@ class Blog extends Component {
 
         return (
           <>
-            <a href={`/blog/${name}/${blogPost.bId}/`} key={blogPost.bId}>
+            <a href={`/Blog/${blogPost.bId}/`} key={blogPost.bId}>
               <div className="blog_article" key={blogPost.bId}>
                 <div className="img_wrapper">
                   <picture>
@@ -55,11 +52,9 @@ class Blog extends Component {
                 </div>
                 <div className="content_wrapper">
                   <div className="title">
-                  <h1> LOREM IMPSUM</h1>
+                    <h1> {blogPost.blogtitle}</h1>
                   </div>
-                  <div className="desc">
-                    Lorm ipsum
-                  </div>
+                  <div className="desc">{blogPost.blogdesc}</div>
                   <div className="author">
                     <div className="author_img_wrapper">
                       <img
@@ -69,10 +64,10 @@ class Blog extends Component {
                       />
                     </div>
                     <div className="author_nd">
-                      <div className="author_name desc">
+                      <div className="author_name ">
                         {`${blogPost.author[0]} ${blogPost.author[1]}`}
                       </div>
-                      <div className="author_date desc">{blogPost.date}</div>
+                      <div className="author_date ">{blogPost.date}</div>
                     </div>
                   </div>
                 </div>
@@ -84,16 +79,13 @@ class Blog extends Component {
 
     return (
       <div className="section blog_s">
-        <Container>
-          <div>
-           
-          </div>
-          <div className="blog_articles">{blog_articles}</div>
-         
-        </Container>
+        {/* <Container> */}
+
+        <div className="blog_articles">{blog_articles}</div>
+        {/* </Container> */}
       </div>
     );
   }
 }
 
-export default (Blog);
+export default Blog;

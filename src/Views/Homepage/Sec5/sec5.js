@@ -15,7 +15,9 @@ class Sec5 extends Component {
               data-aos="fade-up"
               data-aos-duration="1500"
             >
-              <p>Die perfekte und optimierte Webseite für Ihre Arztpraxis</p>
+              <h3 style={{ fontWeight: "500" }}>
+                Die perfekte und optimierte Webseite für Ihre Arztpraxis
+              </h3>
               <p>
                 Verschwenden Sie ihre wertvolle Zeit nicht mit dem Bau oder
                 Umbau von Webseiten – wir übernehmen das gerne für Sie!
@@ -24,7 +26,7 @@ class Sec5 extends Component {
                 Dank unseres klar definierten Projektablaufs wissen Sie zu jedem
                 Zeitpunkt, wie es um Ihre Webseite steht. Sie haben jederzeit
                 die Möglichkeit Feedback zu geben und zuzuarbeiten. Auch die
-                komplette Projektausführung übernehmen wir gerne
+                komplette Projektausführung übernehmen wir gerne.
               </p>
             </div>
           </div>

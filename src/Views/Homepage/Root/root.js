@@ -30,14 +30,14 @@ class Root extends Component {
             </div>
             <div id="outer">
               <div class="inner">
-                <button type="submit" class="Btn1" href="#">
-                  Zu unserem Angebot
-                </button>
+                <a href="/Pakete">
+                  <button className="Btn1">Zu unserem Angebot</button>
+                </a>
               </div>
               <div class="inner">
-                <button type="submit" class="Btn2" href="#">
-                  Referenzen
-                </button>
+                <a href="/Referenzen">
+                  <button className="Btn2">Referenzen</button>
+                </a>
               </div>
             </div>
           </div>
