@@ -216,8 +216,8 @@ const Praxismarketing = (props) => {
           entsprechende Angaben auf Ihrer Praxis-Website machen. Was kommt in
           die Datenschutzerklärung? Was kommt rein ins Impressum? Die{" "}
           <a
-            href="https://www.kbv.de/html/4425.php"
-            target="_blank"
+            href="/pakete"
+            
             style={{
               color: "black",
               cursor: "pointer",
