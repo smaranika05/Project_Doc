@@ -216,7 +216,7 @@ const Praxismarketing = (props) => {
           entsprechende Angaben auf Ihrer Praxis-Website machen. Was kommt in
           die Datenschutzerklärung? Was kommt rein ins Impressum? Die{" "}
           <a
-            href="/pakete"
+            href="/Pakete"
             
             style={{
               color: "black",
@@ -339,8 +339,8 @@ const Praxismarketing = (props) => {
         <p>
           Sie haben die Wahl zwischen{" "}
           <a
-            href="http://praxisweb.s3-website.ap-south-1.amazonaws.com/Pakete"
-            target="_blank"
+            href="/Pakete"
+           
             style={{
               color: "black",
               cursor: "pointer",
