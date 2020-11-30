@@ -100,6 +100,29 @@
         }
       }
     }
+    .icons3 {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      letter-spacing: 1px;
+      word-spacing: 2px;
+      font-family: Futura;
+
+      // justify-content: space-between;
+      .icons1_flex {
+        display: flex;
+        margin: 10px;
+        .icons {
+          color: #e8505b;
+          font-size: 24px;
+          margin: 16px 0px 0px 0px;
+        }
+        p {
+          font-size: 18px;
+          font-weight: 400;
+        }
+      }
+    }
   }
   .right_content {
     display: flex;

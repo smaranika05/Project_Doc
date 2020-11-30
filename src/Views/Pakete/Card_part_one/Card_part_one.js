@@ -16,7 +16,7 @@ export default function Card_part_one() {
     <div className="Card_part_one">
       <hr style={{ borderTop: " 2px solid  #e8505b", margin: "1em 1em" }} />
       <div className="Card_part_one_wrap">
-        <h1>1. Welches Paket darfs denn sein?</h1>
+        <h2>1. Welches Paket darfs denn sein?</h2>
         <div className="card_bind">
           <div className="wrapper">
             <FormControl component="fieldset">
@@ -31,7 +31,7 @@ export default function Card_part_one() {
                   <div className="wrap_cards">
                     <p>Homepage</p>
                     <p>Arzt</p>
-                    <p>ab 1.950,- € (inkl. MwSt.)</p>
+                    <p>ab 1.490,- € (inkl. MwSt.)</p>
                     <p>
                       <FormControlLabel value="one" control={<Radio />} />
                     </p>
@@ -41,7 +41,7 @@ export default function Card_part_one() {
                   <div className="wrap_cards">
                     <p>Homepage</p>
                     <p>Arzt +</p>
-                    <p>ab 2.950,- € (inkl. MwSt.)</p>
+                    <p>ab 1.990,- € (inkl. MwSt.)</p>
                     <p>
                       <FormControlLabel value="two" control={<Radio />} />
                     </p>

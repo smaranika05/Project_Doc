@@ -15,7 +15,7 @@ class Kontakt extends Component {
               data-aos-duration="1000"
             >
               <div className="contact_content">
-                <h2>Gerne beraten wir Sie persönlich!</h2>
+                <h1>Gerne beraten wir Sie persönlich!</h1>
                 <div className="kontact_flex">
                   <p className="kontact_icon">
                     <AiFillPhone />
@@ -46,7 +46,7 @@ class Kontakt extends Component {
                 data-aos="zoom-in-down"
                 data-aos-duration="1000"
               >
-                <img src={Comp3} alt="Praxis" />
+                <img src={Comp3} alt="contactus" />
               </div>
             </div>
           </div>

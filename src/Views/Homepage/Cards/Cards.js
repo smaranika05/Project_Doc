@@ -29,9 +29,9 @@ class Sec3 extends Component {
                       </p>
                       <p>Wir optimieren</p>
                     </div>
-                    <li>Suchmaschinenoptimiert</li>
-                    <li>Endgerät-optimiert</li>
-                    <li>Spezifisch für Ihr Fachgebiet</li>
+                    <li>Analytische SEO-Maßnahmen</li>
+                    <li>Endgerätdarstellung für eine responsive Website</li>
+                    <li>Fachgebietspezifische Gestaltung</li>
                   </ul>
                 </div>
               </div>
@@ -45,9 +45,9 @@ class Sec3 extends Component {
                       </p>{" "}
                       <p>Wir designen</p>{" "}
                     </div>
-                    <li>Frisches und modernes Design</li>
+                    <li>Modern und zeitgemäß</li>
                     <li>Hohe Individualität</li>
-                    <li>User-experience optimiert</li>
+                    <li>User Experience optimiert</li>
                   </ul>
                 </div>
               </div>
@@ -70,6 +70,7 @@ class Sec3 extends Component {
                     </div>
                     <li>Regelmäßige Updates und Backups</li>
                     <li>Sicherheitschecks</li>
+                    <li>Nachbetreuung</li>
                   </ul>
                 </div>
               </div>
@@ -84,7 +85,7 @@ class Sec3 extends Component {
                       <p>Wir skalieren</p>{" "}
                     </div>
                     <li>Zusätzliche Sprachen</li>
-                    <li>Zusätzliche Inhalte und Menüpunktet</li>
+                    <li>Zusätzliche Inhalte und Menüpunkte</li>
                     <li>Zusätzliche Terminbuchungs-Formulare</li>
                   </ul>
                 </div>

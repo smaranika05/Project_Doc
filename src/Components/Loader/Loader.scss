@@ -1,0 +1,21 @@
+// @import '../../assets/scss/colors';
+@import "../../assets/scss/flexbox";
+
+.loader {
+  /* The image used */
+  filter: blur(2px);
+  /* Set a specific height */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  /* Create the loader scrolling effect */
+}
+
+.loader .title {
+  font-weight: 500;
+  font-size: 3rem;
+  text-shadow: 2px 1px 20px rgb(221, 23, 99);
+  color: white;
+}

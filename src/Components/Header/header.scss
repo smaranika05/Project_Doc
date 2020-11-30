@@ -36,6 +36,7 @@ object {
   align-items: center;
   display: flex;
   justify-content: flex-end;
+
   a {
     letter-spacing: 1px;
     word-spacing: 2px;
@@ -51,11 +52,13 @@ object {
     font-weight: 500;
   }
 
-  a:hover,
-  a:active {
+  a:hover {
     color: #e8505b;
-    transition: 0.4s;
   }
+}
+.navLink_active {
+  color: #e8505b;
+  border-bottom: 2px solid #e8505b;
 }
 .desktopView {
   align-items: center;

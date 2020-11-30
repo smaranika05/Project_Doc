@@ -13,10 +13,10 @@ class Cardp extends Component {
           data-aos-delay="500"
         >
           <div className="text_wapping">
-            <h1>
+            <h2>
               Ob Neugestaltung des Internetauftritts Ihrer Praxis, oder
               Umgestaltung von bestehenden Websites{" "}
-            </h1>
+            </h2>
             <p>
               Wir unterstützen Sie mit unserer Expertise zu einem gutem
               Preis-Leistungs-Verhältnis:
@@ -35,8 +35,8 @@ class Cardp extends Component {
               <div className="cardbody1">
                 <img src={Cardimg} alt="Praxis" />
                 <div class="cont">
-                  <h1>1.490€</h1>
-
+                  <h2>1.490€</h2>
+                  <p>Homepage Arzt LIGHT</p>
                   <p>
                     <button href="#">Zum Angebot</button>
                   </p>
@@ -53,8 +53,8 @@ class Cardp extends Component {
               <div className="cardbody2">
                 <img src={Cardimg} alt="Praxis" />
                 <div class="cont">
-                  <h1>1.990€</h1>
-
+                  <h2>1.990€</h2>
+                  <p>Homepage Arzt PLUS</p>
                   <p>
                     {" "}
                     <button href="#">Zum Angebot</button>

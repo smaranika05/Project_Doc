@@ -52,9 +52,9 @@ class Blog extends Component {
                 </div>
                 <div className="content_wrapper">
                   <div className="title">
-                    <h1> {blogPost.blogtitle}</h1>
+                    <> {blogPost.blogtitle}</>
                   </div>
-                  <div className="desc">{blogPost.blogdesc}</div>
+                  <h2 className="desc">{blogPost.blogdesc}</h2>
                   <div className="author">
                     <div className="author_img_wrapper">
                       <img
@@ -64,10 +64,10 @@ class Blog extends Component {
                       />
                     </div>
                     <div className="author_nd">
-                      <div className="author_name ">
+                      <h3 className="author_name ">
                         {`${blogPost.author[0]} ${blogPost.author[1]}`}
-                      </div>
-                      <div className="author_date ">{blogPost.date}</div>
+                      </h3>
+                      <h4 className="author_date ">{blogPost.date}</h4>
                     </div>
                   </div>
                 </div>
@@ -78,12 +78,19 @@ class Blog extends Component {
       });
 
     return (
-      <div className="section blog_s">
-        {/* <Container> */}
+      <>
+        <div className="blog_head">
+          {" "}
+          <h1>BLOGS</h1>
+        </div>
 
-        <div className="blog_articles">{blog_articles}</div>
-        {/* </Container> */}
-      </div>
+        <div className="section blog_s">
+          {" "}
+          {/* <Container> */}
+          <div className="blog_articles">{blog_articles}</div>
+          {/* </Container> */}
+        </div>
+      </>
     );
   }
 }

@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "./../../Assets/praxis-logo.png";
 import "./header.scss";
 
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 class Header extends React.Component {
   constructor(props) {
     super(props);
@@ -20,32 +20,32 @@ class Header extends React.Component {
         {
           linkName: "Home",
           linkAdd: "#",
-          active: false,
-          useNavLink: false,
+
+          useNavLink: true,
         },
 
         {
           linkName: "Pakete",
           linkAdd: "Pakete",
-          active: false,
-          useNavLink: false,
+
+          useNavLink: true,
         },
         {
           linkName: "Referenzen",
           linkAdd: "Referenzen",
-          active: false,
+
           useNavLink: true,
         },
         {
           linkName: "Blog",
           linkAdd: "Blog",
-          active: false,
+
           useNavLink: true,
         },
         {
           linkName: "Kontakt",
           linkAdd: "Kontakt",
-          active: false,
+
           useNavLink: true,
         },
       ],
@@ -90,19 +90,22 @@ class Header extends React.Component {
 
   render() {
     const navlinks = this.state.navLinks.map((navLink) => {
-      const location = window.location.pathname;
-      const color =
-        location === navLink ? { color: "red" } : { color: "black" };
       return (
-        <div className="navLink" onClick={this.handleHamburger}>
+        <div onClick={this.handleHamburger}>
           {navLink.useNavLink && (
-            <Link smooth to={`/${navLink.linkAdd}`} className={color}>
+            <NavLink
+              exact
+              to={`/${navLink.linkAdd}`}
+              className="navLink"
+              activeClassName="navLink_active"
+              aria-current="page"
+            >
               {navLink.linkName}
-            </Link>
+            </NavLink>
           )}
-          {!navLink.useNavLink && (
+          {/* {!navLink.useNavLink && (
             <a href={`/${navLink.linkAdd}`}>{navLink.linkName}</a>
-          )}
+          )} */}
         </div>
       );
     });
@@ -114,9 +117,9 @@ class Header extends React.Component {
         </div>
         <div className="header-wrap" ref={this.headerNavbar}>
           <div className="brandLogo">
-            <Link smooth to="/">
-              <img src={Logo} alt="Praxis"></img>
-            </Link>
+            {/* <Link smooth to="/"> */}
+            <img src={Logo} alt="Praxis"></img>
+            {/* </Link> */}
           </div>
 
           <div className="navLinks">

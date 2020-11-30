@@ -12,7 +12,7 @@ class Package_contact extends Component {
     return (
       <div className="pakete_contact_wrap">
         <div className="cont_form">
-          <h1>3. Ihre Daten</h1>
+          <h2>3. Ihre Daten</h2>
           <div className="wrap_form">
             <form>
               <div className="row_one">
@@ -20,31 +20,36 @@ class Package_contact extends Component {
                   type="text"
                   name="email"
                   placeholder="Vorname,Nachname*"
-                  s
                 />
 
                 <input
                   type="text"
                   name="email"
-                  placeholder="Iher E-Mail Adresse*"
+                  placeholder="Ihre E-Mail Adresse*"
                 />
               </div>
               <div>
                 <input
                   type="text"
                   name="number"
-                  placeholder="Iher Telefonnummer"
+                  placeholder="Ihre Telefonnummer"
                 />
               </div>
               <div>
-                <textarea name="message" placeholder="Was sollten wir wisen" />
+                <textarea
+                  name="message"
+                  placeholder="Haben Sie zusatzliche Anmerkungen?"
+                />
+              </div>
+              <div className="btn">
+                <button>Unverbindlich anfragen</button>
               </div>
             </form>
           </div>
         </div>
 
         <div className="pakt_last">
-          <h1>Gerne beraten wir Sie persönlich!</h1>
+          <h2>Gerne beraten wir Sie persönlich!</h2>
           <div className="icons3">
             <div className="contact_icons">
               <p className="c_icon">

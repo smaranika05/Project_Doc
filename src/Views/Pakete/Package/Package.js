@@ -16,14 +16,15 @@ class Package extends Component {
           data-aos-duration="3000"
         >
           <div className="text_flex">
-            <p style={{ color: "#e8505b" }}>
-              Konfiguration Ihrer persönlichen Praxis Website – Wie hätten Sie
+            <h1 style={{ color: "#e8505b" }}>
+              Konfiguration Ihrer persönlichen Praxis-Webseite – Wie hätten Sie
               es denn gerne?
-            </p>
-            <p>
-              Profitieren Sie von unserer Expertise und konfigurieren Sie ihre
-              persönliche Webseite in nur 5 Minuten
-            </p>
+            </h1>
+            <h2>
+              Profitieren Sie von unserer Expertise und wählen Sie das passende
+              Paket für
+            </h2>
+            <h2> Ihre persönliche Webseite.</h2>
           </div>
         </div>
         <div className="pakt_price">
@@ -35,7 +36,7 @@ class Package extends Component {
           <div className="pakete_cards">
             <div className="anime_one">
               <div className="card_price">
-                <img src={Cardimg} alt="praxis" />
+                <img src={Cardimg} alt="package_one" />
                 <p>1.490€</p>
                 <div className="outer">
                   <button className="btn">Zum Angebot</button>
@@ -44,7 +45,7 @@ class Package extends Component {
             </div>
             <div className="anime_two">
               <div className="card_price">
-                <img src={Cardimg} alt="praxis" />
+                <img src={Cardimg} alt="package_two" />
                 <p>1.990€</p>
                 <div className="outer">
                   <button className="btn">Zum Angebot</button>

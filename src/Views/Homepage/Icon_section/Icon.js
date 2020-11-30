@@ -7,8 +7,10 @@ import { AiTwotonePhone } from "react-icons/ai";
 import { MdEmail } from "react-icons/md";
 import { BsReverseLayoutTextWindowReverse } from "react-icons/bs";
 import Comp2 from "./../../../Assets/b-mock.png";
-import Svg from "./svg_right";
-// import { BrowserRouter as Router, Route,Link } from "react-router-dom";
+import Svg_right from "./svg_right";
+import Svg_left from "./svg_left";
+import Svg_curve from "./svg_curve";
+
 import "./Icon.scss";
 class Icon extends Component {
   render() {
@@ -24,14 +26,19 @@ class Icon extends Component {
               </p>
               <p>Definieren der Projektanforderungen</p>
             </div>
-
+            <div className="arrows">
+              <Svg_right />
+            </div>
             <div className="icons1_flex">
               <p className="icons">
                 <MdMessage />
               </p>
               <p>Content-Erstellung (Bilder, Texte)</p>
             </div>
-
+            <div className="arrows">
+              {" "}
+              <Svg_right />
+            </div>
             <div className="icons1_flex">
               <p className="icons">
                 <FaLaptopCode />
@@ -39,18 +46,25 @@ class Icon extends Component {
               <p>Programmierung und Implementierung</p>{" "}
             </div>
           </div>
-          <div className="icons2" style={{ justifyContent: "space-evenly" }}>
+
+          <div className="icons2">
             <div className="icons1_flex">
               <p className="icons">
                 <BsGraphUp />
               </p>
               <p>Suchmaschinen-Perfektionierung</p>
             </div>
+            <div className="arrows">
+              <Svg_left />
+            </div>
             <div className="icons1_flex">
               <p className="icons">
                 <BsReverseLayoutTextWindowReverse />
               </p>
               <p>Rechtstext-Erstellung (Datenschutzrichtlinien, AGBs)</p>{" "}
+            </div>
+            <div className="curve">
+              <Svg_curve />
             </div>
           </div>
           <h3>

@@ -6,8 +6,11 @@
     justify-content: center;
     .text_flex {
       width: 70%;
-      p {
-        font-size: 25px;
+      h1 {
+        text-align: center;
+      }
+      h2 {
+        // font-size: 25px;
         text-align: center;
         font-family: Futura;
       }
@@ -151,7 +154,10 @@
     .package_text {
       .text_flex {
         width: 70%;
-        p {
+        h1 {
+          font-size: 20px;
+        }
+        h2 {
           font-size: 18px;
         }
       }
@@ -203,7 +209,10 @@
   .package_wrap {
     .package_text {
       .text_flex {
-        p {
+        h1 {
+          font-size: 20px;
+        }
+        h2 {
           font-size: 18px;
         }
       }

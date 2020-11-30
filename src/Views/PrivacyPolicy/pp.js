@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import "./pp.scss";
 import "./../../Views/Heading.scss";
-// import Footer from "./../../Components/footer/footer";
+
 class Policy extends Component {
   componentDidMount = () => {
     window.scrollTo(0, 0);
@@ -361,7 +361,7 @@ class Policy extends Component {
             </ul>
           </div>
         </div>
-        {/* <Footer /> */}
+      
       </>
     );
   }

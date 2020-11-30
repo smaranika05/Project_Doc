@@ -1,33 +1,44 @@
-import React, { Component } from "react";
+import React, { Component, Suspense, lazy } from "react";
 
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
-import BlogPage from "./Views/Blog_pages/blog_page";
-import Kont from "./Views/Kontakt/kontakt";
-import Refer from "./Views/Refer/refer";
-import Blog from "./Views/Blog/blog";
-import Home from "./Views/Homepage/homepage";
-import Header from "./Components/Header/header";
-import Pakt from "./Views/Pakete/pakete";
-import Footer from "./Components/footer/footer";
-import Impressum from "./Views/Impressum/impressum";
-import PrivacyPolicy from "./Views/PrivacyPolicy/pp";
-import { CSSTransition, TransitionGroup } from "react-transition-group";
+
+import { Helmet } from "react-helmet";
 import "./App.css";
+import Loader from "./Components/Loader/index";
+const BlogPage = lazy(() => import("./Views/Blog_pages/blog_page"));
+const Kont = lazy(() => import("./Views/Kontakt/kontakt"));
+const Refer = lazy(() => import("./Views/Refer/refer"));
+const Blog = lazy(() => import("./Views/Blog/blog"));
+const Home = lazy(() => import("./Views/Homepage/homepage"));
+const Header = lazy(() => import("./Components/Header/header"));
+const Pakt = lazy(() => import("./Views/Pakete/pakete"));
+const Footer = lazy(() => import("./Components/footer/footer"));
+const Impressum = lazy(() => import("./Views/Impressum/impressum"));
+const PrivacyPolicy = lazy(() => import("./Views/PrivacyPolicy/pp"));
 
 function App() {
   return (
-    <Router>
-      <Header />
-      <Route exact path="/" component={Home} />
-      <Route exact path="/Referenzen" component={Refer} />
-      <Route exact path="/Kontakt" component={Kont} />
-      <Route exact path="/Blog" component={Blog} />
-      <Route exact path="/Pakete" component={Pakt} />
-      <Route exact path="/impressum" component={Impressum} />
-      <Route exact path="/datenschutzerklaerung" component={PrivacyPolicy} />
-      <Route exact path="/blog/:blogid" component={BlogPage} />
-      <Footer />
-    </Router>
+    <Suspense fallback={<Loader />}>
+      <Router>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>
+            Professionelle Webseiten und Homepages für Ärzte/Zahnärzte
+          </title>
+          <link rel="canonical" href="https://www.praxis-webseite.de/" />
+        </Helmet>
+        <Header />
+        <Route exact path="/" component={Home} />
+        <Route exact path="/Referenzen" component={Refer} />
+        <Route exact path="/Kontakt" component={Kont} />
+        <Route exact path="/Blog" component={Blog} />
+        <Route exact path="/Pakete" component={Pakt} />
+        <Route exact path="/impressum" component={Impressum} />
+        <Route exact path="/datenschutzerklaerung" component={PrivacyPolicy} />
+        <Route exact path="/blog/:blogid" component={BlogPage} />
+        <Footer />
+      </Router>
+    </Suspense>
   );
 }
 

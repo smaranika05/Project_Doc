@@ -3,6 +3,8 @@ import Doc from "./../../../Assets/Doc.png";
 import one from "./../../../Assets/one.png";
 import two from "./../../../Assets/two.png";
 import svg from "./../../../Assets/arrow.svg";
+import { AiTwotonePhone } from "react-icons/ai";
+import { MdEmail } from "react-icons/md";
 // import { BrowserRouter as Router, Route,Link } from "react-router-dom";
 import "./root.scss";
 
@@ -42,11 +44,26 @@ class Root extends Component {
                 </a>
               </div>
             </div>
+            <div className="icons3">
+              <div className="icons1_flex">
+                <p className="icons">
+                  <AiTwotonePhone />
+                </p>
+                <p>+49 179 415 90 70</p>
+              </div>
+
+              <div className="icons1_flex">
+                <p className="icons">
+                  <MdEmail />
+                </p>
+                <p>info@softsourced.de</p>
+              </div>
+            </div>
           </div>
         </div>
         <div className="right_content">
           {/* <div className="root_img"> */}
-          <img src={Doc} alt="praxis" className="main"></img>
+          <img src={Doc} alt="root" className="main"></img>
           {/* <img src={one} alt="one" className="one"></img>
             <img src={two} alt="two" className="two"></img> */}
           {/* </div> */}

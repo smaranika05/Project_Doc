@@ -27,7 +27,7 @@ class Contact_home extends Component {
             </div>
           </div>
           <div className="contact">
-            <h1>Gerne beraten wir Sie persönlich!</h1>
+            <h2>Gerne beraten wir Sie persönlich!</h2>
             <div className="icons3">
               <div className="icons1_flex">
                 <p className="icons">

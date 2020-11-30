@@ -20,7 +20,7 @@ export default function Card_part_two() {
   };
   return (
     <div className="Card_part_two">
-      <h1> 2. Folgende zusätzlichen Leistungen interessieren mich </h1>
+      <h2> 2. Folgende zusätzlichen Leistungen interessieren mich </h2>
       <div className="wrapping_cards">
         <div className="space_between">
           <FormControl component="fieldset">

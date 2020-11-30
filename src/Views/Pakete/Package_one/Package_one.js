@@ -11,16 +11,14 @@ class Package_one extends Component {
         <div className="pakete_section_computer">
           {/* <div className="section_wrap"> */}
           <div className="comp_lhs">
-            <img src={Comp3} alt="praxis"></img>
+            <img src={Comp3} alt="laptop"></img>
           </div>
           <div className="comp_rhs">
             <div className="comp_rhs_wrap">
-              <p>Homepage Arzt Plus</p>
-              <p>Praxishomepage mit ausgiebigerem Leistungsspektrum,</p>
-              <p>
-                ideal für Großpraxen, die umfangreicher informieren möchten.
-              </p>
-              <p>Die Umsetzung dauert in etwa 10 Tage.</p>
+              <h3>Homepage Arzt LIGHT</h3>
+              <h3>One-Page Design für Ihre Inhalte.</h3>
+              <h3>Ein aussagekräftiges Aushängeschild ihrer Praxis.</h3>
+              <h3>Die Umsetzung dauert in etwa 7 Tage.</h3>
             </div>
           </div>
           {/* </div> */}
@@ -33,18 +31,13 @@ class Package_one extends Component {
               <div className="card_cont">
                 <p>
                   Konzeptionelle Beratung, 3 Designvorschläge, Website-Umsetzung
-                  (one-page-design), SEO
+                  im One-Page-Design, SEO
                 </p>
                 <hr />
-                <p>Paket-Bereiche</p>
-                <hr />
-                <p>
-                  Homepage, Leistungsseite, Teamseite, Praxisseite, Kontaktseite
-                  mit Anfahrtsbeschreibung
-                </p>
+                <p>Paketbereiche</p>
+                <p>Leistungsspektrum, Team, Kontakt, Anfahrtsbeschreibung</p>
                 <hr />
                 <p>Funktionalitäten</p>
-                <hr />
                 <p>Hero inkl. Imagery, Kontaktformular, Anfahrtsbeschreibung</p>
                 <hr />
               </div>
@@ -64,11 +57,11 @@ class Package_one extends Component {
             <div className="section_card_pink">
               <div className="card_head_pink">Inkludierte Leistungen</div>
               <div className="card_cont_pink">
-                <p> Homepage Arzt Light</p>
+                <p>Homepage Arzt Light</p>
                 <p>1.490€</p>
                 <p>exkl. MwSt.</p>
                 <p>+491794159070</p>
-                <p>contact@softsourced.de</p>
+                <p>info@softsourced.de</p>
               </div>
               <div className="outer">
                 {" "}

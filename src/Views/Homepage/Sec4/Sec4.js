@@ -31,11 +31,12 @@ class Sec4 extends Component {
                     softsourced
                   </a>
                   . Seit mehr als 3 Jahren entwickeln wir Webseiten und
-                  Applikationen für den Bereich Health-Tech, Food-Tech und
+                  Applikationen für den Bereich Health Care, Food-Tech und
                   Travel-Tech. Unser Fokus liegt dabei seit der ersten Stunde
-                  auf Qualität, Funktionalität und hoher User-Experience.
-                  Kundenzufriedenheit steht bei uns weiterhin ganz oben, wie
-                  unsere Zahlen bestätigen. Überzeugen Sie sich selbst!.
+                  auf Qualität, Funktionalität und optimaler User Experience
+                  (UX). Kundenzufriedenheit steht bei uns ganz oben, was sich an
+                  unseren Leistungsdaten sehen lässt. Überzeugen Sie sich
+                  selbst!.
                 </p>
                 <ul>
                   <p>
@@ -56,13 +57,13 @@ class Sec4 extends Component {
               <div class="inner">
                 <a href="/Pakete">
                   <button type="submit" className="Btn1">
-                    Angebot anfordern
+                    Zu den Website-Paketen
                   </button>
                 </a>
               </div>
             </div>
             <div className="four_rhs">
-              <img src={Comp1} alt="Praxis" />
+              <img src={Comp1} alt="pakete" />
             </div>
           </div>
         </div>

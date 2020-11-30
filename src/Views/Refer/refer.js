@@ -19,15 +19,15 @@ class Refer extends Component {
               data-aos-duration="1000"
             >
               <div className="refer_contnt">
-                <p style={{ color: "#E8505B" }}>
+                <h1 style={{ color: "#E8505B" }}>
                   Unsere Praxis Webseiten{" "}
                   <span style={{ color: "black" }}>– </span>
-                </p>
-                <p>
+                </h1>
+                <h2>
                   Modernes und frisches Webseiten-Design für{" "}
                   <span style={{ color: "#E8505B" }}>Arztpraxen</span> und{" "}
                   <span style={{ color: "#E8505B" }}>Zahnarztpraxen</span>
-                </p>
+                </h2>
               </div>
             </div>
             <div
@@ -40,13 +40,13 @@ class Refer extends Component {
                 data-aos="zoom-in-down"
                 data-aos-duration="1000"
               >
-                <img src={Doc1} alt="Praxis" />
+                <img src={Doc1} alt="doctor" />
               </div>
             </div>
           </div>
           <div className="ref_text" data-aos="fade-up" data-aos-duration="1000">
             <div className="section_two">
-              <p>Homepage für Ärzte</p>
+              <h2>Homepage für Ärzte</h2>
               <p>Unsere Referenzen</p>
               <p>
                 Sehen Sie hier wie wir anderen Ärzten und Praxen zu einem
@@ -62,9 +62,9 @@ class Refer extends Component {
                 data-aos-duration="2000"
               >
                 <div className="exmp_lhs_wrap">
-                  <h2 style={{ color: "#E8505B" }}>
+                  <h3 style={{ color: "#E8505B" }}>
                     Allgemeinarztpraxis Dr.Dettner
-                  </h2>
+                  </h3>
                   <br></br>
 
                   <p style={{ color: "#E8505B" }}> Paket: </p>
@@ -97,7 +97,7 @@ class Refer extends Component {
                 <div className="ref_img">
                   <img
                     src={Dig}
-                    alt="Praxis"
+                    alt="reference"
                     style={{ boxShow: "0 8px 16px 0 rgba(0,0,0,0.2)" }}
                   />
                 </div>

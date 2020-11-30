@@ -25,8 +25,8 @@ class Sec5 extends Component {
               <p>
                 Dank unseres klar definierten Projektablaufs wissen Sie zu jedem
                 Zeitpunkt, wie es um Ihre Webseite steht. Sie haben jederzeit
-                die Möglichkeit Feedback zu geben und zuzuarbeiten. Auch die
-                komplette Projektausführung übernehmen wir gerne.
+                die Möglichkeit Feedback zu geben. Wir sind für Sie dann und
+                übernehmen die komplette Projektausführung für Sie.
               </p>
             </div>
           </div>
@@ -39,7 +39,7 @@ class Sec5 extends Component {
               //data-aos-easing="ease-in-sine"
             ></div>
             <div className="grad_img">
-              <img src={Comp2} />
+              <img src={Comp2} alt="computer" />
             </div>
           </div>
         </div>

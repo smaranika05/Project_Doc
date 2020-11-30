@@ -10,7 +10,7 @@
 
     padding: 150px 0px 0px 30px;
     .text_wapping {
-      h1 {
+      h2 {
         font-size: 25px;
         font-weight: 550;
       }
@@ -40,7 +40,7 @@
 
           img {
             width: 100%;
-            height: 50%;
+            // height: 50%;
           }
 
           .cardbody1:hover {
@@ -51,9 +51,12 @@
             align-items: center;
             justify-content: center;
             flex-direction: column;
-            h1 {
+            line-height: 1.5;
+            h2 {
+              margin: 0px;
             }
             p {
+              text-align: center;
               margin: 0px;
             }
             button {
@@ -84,7 +87,7 @@
 
           img {
             width: 100%;
-            height: 50%;
+            // height: 50%;
           }
 
           .cont {
@@ -92,10 +95,13 @@
             align-items: center;
             justify-content: center;
             flex-direction: column;
-            h1 {
+            line-height: 1.5;
+            h2 {
+              margin: 0px;
             }
             p {
               margin: 0px;
+              text-align: center;
             }
             button {
               background-color: #e8505b;
@@ -140,7 +146,7 @@
       padding: 50px 0px 0px 0px;
       .text_wapping {
         width: 70%;
-        h1 {
+        h2 {
           text-align: center;
           font-size: 18px;
         }
@@ -168,7 +174,7 @@
               justify-content: center;
               flex-direction: column;
 
-              h1 {
+              h2 {
                 font-size: 24px;
               }
               button {
@@ -195,7 +201,7 @@
               justify-content: center;
               flex-direction: column;
 
-              h1 {
+              h2 {
                 font-size: 24px;
               }
               button {
@@ -223,7 +229,7 @@
       padding: 0px;
       .text_wapping {
         width: 80%;
-        h1 {
+        h2 {
           font-size: 18px;
         }
         p {
@@ -246,7 +252,7 @@
               justify-content: center;
               flex-direction: column;
 
-              h1 {
+              h2 {
                 font-size: 24px;
               }
               button {
@@ -270,7 +276,7 @@
               justify-content: center;
               flex-direction: column;
 
-              h1 {
+              h2 {
                 font-size: 24px;
               }
               button {
