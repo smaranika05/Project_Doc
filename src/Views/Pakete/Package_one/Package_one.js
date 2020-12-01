@@ -5,6 +5,15 @@ import Comp3 from "./../../../Assets/Mockup.png";
 import "./../Package_one_two.scss";
 class Package_one extends Component {
   render() {
+    function scrollToBottom() {
+      scroller.scrollTo("Card_part_one", {
+        duration: 2000,
+        delay: 100,
+        smooth: true,
+      });
+    }
+    var Scroll = require("react-scroll");
+    var scroller = Scroll.scroller;
     return (
       <div className="package_one">
         {/* Section four computer section two */}
@@ -64,11 +73,11 @@ class Package_one extends Component {
                 <p>info@softsourced.de</p>
               </div>
               <div className="outer">
-                {" "}
-                <button className="btn" href="#">
-                  {" "}
-                  Jetzt Angebot anfordern
-                </button>
+                <a onClick={scrollToBottom}>
+                  <button className="btn" href="#">
+                    Jetzt Angebot anfordern
+                  </button>
+                </a>
               </div>
             </div>
           </div>

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import Comp2 from "./../../../Assets/b-mock.png";
+import Comp2 from "./../../../Assets/b-mock.webp";
 
 // import { BrowserRouter as Router, Route,Link } from "react-router-dom";
 import "./sec5.scss";

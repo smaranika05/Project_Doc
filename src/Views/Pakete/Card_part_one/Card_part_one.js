@@ -16,6 +16,7 @@ export default function Card_part_one() {
     <div className="Card_part_one">
       <hr style={{ borderTop: " 2px solid  #e8505b", margin: "1em 1em" }} />
       <div className="Card_part_one_wrap">
+        {" "}
         <h2>1. Welches Paket darfs denn sein?</h2>
         <div className="card_bind">
           <div className="wrapper">

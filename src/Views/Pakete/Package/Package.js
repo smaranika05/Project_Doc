@@ -1,11 +1,21 @@
 import React, { Component } from "react";
 
-import Cardimg from "./../../../Assets/card.png";
-
+import Cardimg from "./../../../Assets/card.webp";
+import { animateScroll as scroll } from "react-scroll";
 import "./Package.scss";
 
 class Package extends Component {
   render() {
+    function scrollToBottom() {
+      scroller.scrollTo("Card_part_one", {
+        duration: 2000,
+        delay: 100,
+        smooth: true,
+      });
+    }
+    var Scroll = require("react-scroll");
+    var scroller = Scroll.scroller;
+
     return (
       <div className="package_wrap">
         {/* Section one */}
@@ -38,8 +48,11 @@ class Package extends Component {
               <div className="card_price">
                 <img src={Cardimg} alt="package_one" />
                 <p>1.490€</p>
+                <p>Homepage Arzt LIGHT</p>
                 <div className="outer">
-                  <button className="btn">Zum Angebot</button>
+                  <a onClick={scrollToBottom}>
+                    <button className="btn">Zum Angebot</button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -47,8 +60,11 @@ class Package extends Component {
               <div className="card_price">
                 <img src={Cardimg} alt="package_two" />
                 <p>1.990€</p>
+                <p>Homepage Arzt PLUS</p>
                 <div className="outer">
-                  <button className="btn">Zum Angebot</button>
+                  <a onClick={scrollToBottom}>
+                    <button className="btn">Zum Angebot</button>
+                  </a>
                 </div>
               </div>
             </div>

@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import { animateScroll as scroll } from "react-scroll";
+
 // import { BrowserRouter as Router, Route,Link } from "react-router-dom";
-import Comp1 from "./../../../Assets/a-mock.png";
+import Comp1 from "./../../../Assets/a-mock.webp";
 import "./Sec4.scss";
 class Sec4 extends Component {
   render() {

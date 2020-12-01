@@ -1,9 +1,20 @@
 //import { Card, Button, Image} from 'semantic-ui-react';
 import React, { Component } from "react";
-import Cardimg from "./../../../Assets/card.png";
+// import { NavLink } from "react-router-dom";
+import Cardimg from "./../../../Assets/card.webp";
 import "./Price_card.scss";
 class Cardp extends Component {
   render() {
+    // function click_me() {}
+    function scrollToBottom() {
+      scroller.scrollTo("Card_part_one", {
+        duration: 2000,
+        delay: 100,
+        smooth: true,
+      });
+    }
+    var Scroll = require("react-scroll");
+    var scroller = Scroll.scroller;
     return (
       <div className="card_wrapper">
         <div
@@ -38,7 +49,9 @@ class Cardp extends Component {
                   <h2>1.490€</h2>
                   <p>Homepage Arzt LIGHT</p>
                   <p>
-                    <button href="#">Zum Angebot</button>
+                    <a href="/Pakete">
+                      <button>Zum Angebot</button>
+                    </a>
                   </p>
                 </div>
               </div>
@@ -56,8 +69,12 @@ class Cardp extends Component {
                   <h2>1.990€</h2>
                   <p>Homepage Arzt PLUS</p>
                   <p>
-                    {" "}
-                    <button href="#">Zum Angebot</button>
+                    <a
+                      // onClick={scrollToBottom}
+                      href="/Pakete"
+                    >
+                      <button>Zum Angebot</button>
+                    </a>
                   </p>
                 </div>
               </div>

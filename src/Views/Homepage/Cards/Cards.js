@@ -5,7 +5,7 @@ import { FaLaptop } from "react-icons/fa";
 import { BsArrowsAngleExpand } from "react-icons/bs";
 import Card from "@material-ui/core/Card";
 // import { BrowserRouter as Router, Route,Link } from "react-router-dom";
-import Comp1 from "./../../../Assets/a-mock.png";
+import Comp1 from "./../../../Assets/a-mock.webp";
 import "./Cards.scss";
 class Sec3 extends Component {
   render() {

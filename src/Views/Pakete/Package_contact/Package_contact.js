@@ -9,10 +9,12 @@ class Package_contact extends Component {
     function scrollToTop() {
       scroll.scrollToTop(-400);
     }
+
     return (
       <div className="pakete_contact_wrap">
         <div className="cont_form">
           <h2>3. Ihre Daten</h2>
+
           <div className="wrap_form">
             <form>
               <div className="row_one">
@@ -48,7 +50,7 @@ class Package_contact extends Component {
           </div>
         </div>
 
-        <div className="pakt_last">
+        <div className="pakt_last" id="card_section">
           <h2>Gerne beraten wir Sie persönlich!</h2>
           <div className="icons3">
             <div className="contact_icons">

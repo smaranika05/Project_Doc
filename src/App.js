@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import "./App.css";
 import Loader from "./Components/Loader/index";
+import Card from "./Views/Pakete/Package_contact/Package_contact";
 const BlogPage = lazy(() => import("./Views/Blog_pages/blog_page"));
 const Kont = lazy(() => import("./Views/Kontakt/kontakt"));
 const Refer = lazy(() => import("./Views/Refer/refer"));
@@ -36,6 +37,7 @@ function App() {
         <Route exact path="/impressum" component={Impressum} />
         <Route exact path="/datenschutzerklaerung" component={PrivacyPolicy} />
         <Route exact path="/blog/:blogid" component={BlogPage} />
+        <Route exact path="/Pakete#card_section" component={Card} />
         <Footer />
       </Router>
     </Suspense>

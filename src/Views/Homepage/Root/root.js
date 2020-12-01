@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Doc from "./../../../Assets/Doc.png";
+import Doc from "./../../../Assets/Doc.webp";
 import one from "./../../../Assets/one.png";
 import two from "./../../../Assets/two.png";
 import svg from "./../../../Assets/arrow.svg";

@@ -6,7 +6,7 @@ import { BsGraphUp } from "react-icons/bs";
 import { AiTwotonePhone } from "react-icons/ai";
 import { MdEmail } from "react-icons/md";
 import { BsReverseLayoutTextWindowReverse } from "react-icons/bs";
-import Comp2 from "./../../../Assets/b-mock.png";
+import Comp2 from "./../../../Assets/b-mock.webp";
 import Svg_right from "./svg_right";
 import Svg_left from "./svg_left";
 import Svg_curve from "./svg_curve";
