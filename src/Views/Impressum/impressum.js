@@ -19,11 +19,11 @@ class Impressum extends Component {
             </h3>
 
             <div class="body">
-              <p style={{ color: "#e8505b" }}>Name und Praxisanschrift:</p>
+              <p style={{ color: "#e8505b" }}>Name und Anschrift:</p>
               <p>
-                Allgemeinarztpraxis Dr. med. Ottmar Dettner <br></br>Kissinger
-                Str. 42<br></br> 97762 Hammelburg <br></br> Telefon: 09732-1247{" "}
-                <br></br> Fax: 09732-1869 <br></br>E-Mail: dr.dettner@gmail.com
+                Herr Marc Müller <br></br>Karlsbader Str. 20<br></br> 97762
+                Hammelburg <br></br> Telefon.: +49 179 4159070 <br></br> Fax:
+                09732-1869 <br></br>E-Mail: marc@softsourced.de
               </p>
             </div>
             <br></br>
@@ -32,76 +32,9 @@ class Impressum extends Component {
                 Verantwortlich für die Inhalte dieser Webseite nach dem
                 Rundfunkstaatsvertrag (RSTV, § 55 ABS. 2):
               </p>
-              <p>Dr. med. Ottmar Dettner</p>
+              <p>Marc Muller</p>
             </div>
             <br></br>
-            <div class="body">
-              <p style={{ color: "#e8505b" }}>Ärztekammer:</p>
-              <p>
-                Bayerische Landesärztekammer <br></br> Mühlbaurstraße 16{" "}
-                <br></br>
-                81677 München <br></br> Webpräsenz:{" "}
-                <a
-                  href="https://www.blaek.de/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{ color: "#393939", textDecoration: "none" }}
-                >
-                  https://www.blaek.de/
-                </a>
-              </p>
-            </div>
-            <br></br>
-            <div class="body">
-              <p style={{ color: "#e8505b" }}>Zuständige Aufsichtsbehörde:</p>
-              <p>
-                Kassenärztliche Vereinigung <br></br> 80687 München <br></br>
-                Elsenheimerstraße 39 <br></br> Webpräsenz:{" "}
-                <a
-                  href="https://www.kvb.de"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{ color: "#393939", textDecoration: "none" }}
-                >
-                  https://www.kvb.de
-                </a>
-              </p>
-            </div>
-            <br></br>
-            <div class="body">
-              <p style={{ color: "#e8505b" }}>
-                Gesetzliche Berufsbezeichung & Staat der Verleihung dieser:
-              </p>
-              <p>Facharzt für Allgemeinmedizin, Deutschland</p>
-            </div>
-
-            <br></br>
-            <div class="body">
-              <p style={{ color: "#e8505b" }}>Bildrechte:</p>
-              <p>
-                Die auf dieser Webseite verwendeten Fotos sind Eigentum der
-                Allgemeinarztpraxis Dr. med. Ottmar Dettner. Eine Nutzung dieser
-                Bilder ohne die Zustimmung des Eigentümers ist untersagt. Bei
-                Zuwiderhandlung werden rechtliche Schritte eingeleitet.
-              </p>
-            </div>
-
-            <br></br>
-            <div class="body">
-              <p style={{ color: "#e8505b" }}>Berufsrechtliche Regelungen:</p>
-              <p>
-                Es gilt die Berufsordnung der Landesärztekammer Bayern (siehe{" "}
-                <a
-                  href="https://www.blaek.de/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{ color: "#393939", textDecoration: "none" }}
-                >
-                  https://www.blaek.de/
-                </a>
-                ).
-              </p>
-            </div>
 
             <br></br>
             <div class="body">

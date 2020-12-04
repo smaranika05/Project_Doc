@@ -60,7 +60,6 @@ class Policy extends Component {
               werden.
               <br></br>
               <br></br>
-              personenbezogene Daten erfasst und verarbeitet werden.
               Personenbezogenen Daten werden vertraulich und entsprechend der
               gesetzlich geltenden Datenschutzvorschriften behandelt.
             </p>
@@ -74,10 +73,10 @@ class Policy extends Component {
                 Für die Verarbeitung der Daten ist der Betreiber dieser Webseite
                 zuständig.<br></br> Im Sinne der Europäischen
                 Datenschutz-Grundverordnung, DSGVO, und des
-                Bundesdatenschutzgesetzes, BDSG, ist dies <br></br> Herr Dr.
-                Ottmar Dettner <br></br> Kissinger Str. 42 <br></br> 97762
-                Hammelburg <br></br> Tel.: 09732-1247 <br></br>
-                Fax: 09732-1869 <br></br>E-Mail: dr.dettner@gmail.com
+                Bundesdatenschutzgesetzes, BDSG, ist dies <br></br> Herr Marc
+                Müller <br></br> Karlsbader Str. 20 <br></br> 97762 Hammelburg{" "}
+                <br></br>Tel.: +49 179 4159070 <br></br>
+                Fax: 09732-1869 <br></br>E-Mail: marc@softsourced.de
               </p>
               <li>
                 <b>
@@ -201,7 +200,7 @@ class Policy extends Component {
                 Angaben von Gründen, einzulegen. Diese kann sich bspw. gegen
                 Direktwerbung richten. Sollten Sie von Ihrem Widerspruchsrecht
                 Gebrauch machen wollen, so richten Sie den Widerspruch bitte an:
-                dr.dettner@gmail.com
+                marc@softsourced.de
               </p>
 
               <li>
@@ -361,7 +360,6 @@ class Policy extends Component {
             </ul>
           </div>
         </div>
-      
       </>
     );
   }
