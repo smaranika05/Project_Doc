@@ -5,7 +5,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
-ReactGA.initialize("G-Z5D0V02059");
+ReactGA.initialize("G-P7YWD9VX78");
 ReactGA.pageview(window.location.pathname + window.location.search);
 ReactDOM.render(
   <React.StrictMode>

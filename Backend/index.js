@@ -13,8 +13,8 @@ const contactEmail = nodemailer.createTransport({
   host: "smtp.gmail.com",
   port: 587,
   auth: {
-    user: "shishira.Rajk20",
-    pass: "shishira123*",
+    user: "itpermatech",
+    pass: "Permatech@IT",
   },
 });
 
@@ -34,7 +34,7 @@ router.post("/contact", (req, res) => {
 
   const mail = {
     from: name,
-    to: "smaranikadatta05@gmail.com",
+    to: "info@softsourced.de",
     subject: "Email from Praxis Website",
     html: `<p>Name: ${name}</p><p>Email: ${email}</p><p>Number: ${number}</p>s<p>Message: ${message}</p>`,
   };
