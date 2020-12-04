@@ -47,7 +47,7 @@ class Refer extends Component {
           <div className="ref_text" data-aos="fade-up" data-aos-duration="1000">
             <div className="section_two">
               <h2>Homepage für Ärzte</h2>
-              <p>Unsere Referenzen</p>
+              <p style={{ color: "#E8505B" }}>Unsere Referenzen</p>
               <p>
                 Sehen Sie hier wie wir anderen Ärzten und Praxen zu einem
                 frischeren Online-Auftritt verholfen haben.{" "}

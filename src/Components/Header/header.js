@@ -45,7 +45,6 @@ class Header extends React.Component {
         {
           linkName: "Kontakt",
           linkAdd: "Kontakt",
-
           useNavLink: true,
         },
       ],

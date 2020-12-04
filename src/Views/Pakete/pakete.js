@@ -2,12 +2,22 @@ import React, { Component } from "react";
 import Package from "./Package/Package";
 import Package_one from "./Package_one/Package_one";
 import Package_two from "./Package_two/Package_two";
-import Card_part_one from "./Card_part_one/Card_part_one";
-import Card_part_two from "./Card_part_two/Card_part_two";
+import Contact_us from "./Contact_us_form/Contact_us";
 import Package_contact from "./Package_contact/Package_contact";
 
 import "./pakete.scss";
 class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      data: "",
+    };
+  }
+  formChild1(params) {
+    this.setState({
+      data: params,
+    });
+  }
   render() {
     return (
       <div className="pakete">
@@ -22,13 +32,10 @@ class App extends Component {
             <Package_two />
           </div>
           <div className="pakete_part4">
-            <Card_part_one />
-          </div>
-          <div className="pakete_part5">
-            <Card_part_two />
+            <Contact_us />
           </div>
           <div className="pakete_part6">
-            <Package_contact />
+            <Package_contact data={this.state.data} />
           </div>
         </div>
       </div>

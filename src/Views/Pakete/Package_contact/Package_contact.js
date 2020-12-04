@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { animateScroll as scroll } from "react-scroll";
 import { AiTwotonePhone } from "react-icons/ai";
 import { MdEmail } from "react-icons/md";
-
+import Contact from "../../ContactForm";
 import "./Package_contact.scss";
 class Package_contact extends Component {
   render() {
@@ -12,44 +12,6 @@ class Package_contact extends Component {
 
     return (
       <div className="pakete_contact_wrap">
-        <div className="cont_form">
-          <h2>3. Ihre Daten</h2>
-
-          <div className="wrap_form">
-            <form>
-              <div className="row_one">
-                <input
-                  type="text"
-                  name="email"
-                  placeholder="Vorname,Nachname*"
-                />
-
-                <input
-                  type="text"
-                  name="email"
-                  placeholder="Ihre E-Mail Adresse*"
-                />
-              </div>
-              <div>
-                <input
-                  type="text"
-                  name="number"
-                  placeholder="Ihre Telefonnummer"
-                />
-              </div>
-              <div>
-                <textarea
-                  name="message"
-                  placeholder="Haben Sie zusatzliche Anmerkungen?"
-                />
-              </div>
-              <div className="btn">
-                <button>Unverbindlich anfragen</button>
-              </div>
-            </form>
-          </div>
-        </div>
-
         <div className="pakt_last" id="card_section">
           <h2>Gerne beraten wir Sie persönlich!</h2>
           <div className="icons3">

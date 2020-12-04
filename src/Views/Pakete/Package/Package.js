@@ -1,25 +1,35 @@
 import React, { Component } from "react";
 
 import Cardimg from "./../../../Assets/card.webp";
-import { animateScroll as scroll } from "react-scroll";
+import { scroller } from "react-scroll";
+import PropTypes from "prop-types";
 import "./Package.scss";
 
 class Package extends Component {
-  render() {
-    function scrollToBottom() {
-      scroller.scrollTo("Card_part_one", {
-        duration: 2000,
-        delay: 100,
-        smooth: true,
-      });
-    }
-    var Scroll = require("react-scroll");
-    var scroller = Scroll.scroller;
+  constructor(props) {
+    super(props);
+    this.scroll_here = this.scroll_here.bind(this);
+  }
 
+  // getContent(event) {
+  //   this.props.callback(event.target.value);
+  //   // scroller.scrollTo("Card_part_one", {
+  //   //   duration: 2000,
+  //   //   delay: 100,
+  //   //   smooth: true,
+  //   // });
+  // }
+  scroll_here() {
+    scroller.scrollTo("Card_part_one", {
+      duration: 2000,
+      delay: 100,
+      smooth: true,
+    });
+  }
+
+  render() {
     return (
       <div className="package_wrap">
-        {/* Section one */}
-
         <div
           className="package_text"
           data-aos="fade-down"
@@ -35,6 +45,11 @@ class Package extends Component {
               Paket für
             </h2>
             <h2> Ihre persönliche Webseite.</h2>
+            {/* <input
+              type="text"
+              onChange={this.getContent.bind(this)}
+              placeholder="Type Something in Child One"
+            /> */}
           </div>
         </div>
         <div className="pakt_price">
@@ -50,7 +65,10 @@ class Package extends Component {
                 <p>1.490€</p>
                 <p>Homepage Arzt LIGHT</p>
                 <div className="outer">
-                  <a onClick={scrollToBottom}>
+                  <a
+                    onClick={this.scroll_here}
+                    // onChange={this.getContent.bind(this)}
+                  >
                     <button className="btn">Zum Angebot</button>
                   </a>
                 </div>
@@ -62,7 +80,7 @@ class Package extends Component {
                 <p>1.990€</p>
                 <p>Homepage Arzt PLUS</p>
                 <div className="outer">
-                  <a onClick={scrollToBottom}>
+                  <a onClick={this.scroll_here}>
                     <button className="btn">Zum Angebot</button>
                   </a>
                 </div>
@@ -75,10 +93,11 @@ class Package extends Component {
             data-aos-duration="3000"
           ></div>
         </div>
-        {/* Section two computer section - one*/}
       </div>
     );
   }
 }
-
+// Package.protoTypes = {
+//   callback: PropTypes.func,
+// };
 export default Package;
