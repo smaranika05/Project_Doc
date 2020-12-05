@@ -221,6 +221,9 @@ object {
   .brandLogo {
     padding: 6px;
     width: 60%;
+    img {
+      width: 70px;
+    }
   }
   .desktopView {
     display: none;

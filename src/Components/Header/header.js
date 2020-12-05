@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "./../../Assets/praxis-logo.png";
 import "./header.scss";
 
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 class Header extends React.Component {
   constructor(props) {
     super(props);
@@ -116,9 +116,9 @@ class Header extends React.Component {
         </div>
         <div className="header-wrap" ref={this.headerNavbar}>
           <div className="brandLogo">
-            {/* <Link smooth to="/"> */}
-            <img src={Logo} alt="Praxis"></img>
-            {/* </Link> */}
+            <Link smooth to="/">
+              <img src={Logo} alt="Praxis"></img>
+            </Link>
           </div>
 
           <div className="navLinks">

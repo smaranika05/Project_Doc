@@ -14,14 +14,13 @@ import "./../Package_contact/Package_contact.scss";
 
 class Contact_us extends Component {
   state = {
-    value: "radio-1",
+    checked: true,
   };
-
-  handleChange(event) {
-    this.setState({
-      value: event.currentTarget.value,
-    });
-  }
+  // handleChange(event) {
+  //   this.setState({
+  //     value: event.currentTarget.value,
+  //   });
+  // }
   /////////////////////////////////////CONTACT US FORM FUNCTIONS AND METHODS//////////////////////////////////////////////////////
   constructor() {
     super();
@@ -31,6 +30,9 @@ class Contact_us extends Component {
       number: "",
       message: "",
       radio: "",
+      slide1: "",
+      slide2: "",
+      slide3: "",
       status: "Submit",
     };
   }
@@ -45,7 +47,30 @@ class Contact_us extends Component {
       this.setState({ number: event.target.value });
     } else if (field === "message") {
       this.setState({ message: event.target.value });
+    } else if (field === "radio") {
+      this.setState({ radio: event.target.value });
+    } else if (field === "slide1") {
+      this.setState({ slide1: event.target.checked });
+    } else if (field === "slide2") {
+      this.setState({ slide2: event.target.checked });
+    } else if (field === "slide3") {
+      this.setState({ slide3: event.target.checked });
     }
+  }
+
+  // handlecheck() {
+  //   this.setState({ checked: !this.state.checked });
+  // }
+  // getValue() {
+  //   if (this.state.checked) {
+  //     this.setState({ value: "no" });
+  //   } else {
+  //     this.setState({ value: "yes" });
+  //   }
+  // }
+
+  getInitialState() {
+    return { checked: true };
   }
 
   handleSubmit(event) {
@@ -53,7 +78,7 @@ class Contact_us extends Component {
     this.setState({ status: "Sending" });
     axios({
       method: "POST",
-      url: "http://localhost:5000/contact",
+      url: "https://www.praxis-webseite.de/contact",
       data: this.state,
     }).then((response) => {
       if (response.data.status === "sent") {
@@ -66,6 +91,9 @@ class Contact_us extends Component {
           message: "",
           number: "",
           radio: "",
+          slide1: "",
+          slide2: "",
+          slide3: "",
           status: "Submit",
         });
       } else if (response.data.status === "failed") {
@@ -91,10 +119,9 @@ class Contact_us extends Component {
               <div className="wrapper">
                 <FormControl component="fieldset">
                   <RadioGroup
-                    // aria-label="gender"
-                    // name="gender1"
-                    // value={value}
-
+                    id="radio"
+                    value={this.state.radio}
+                    onChange={(e) => this.setState({ radio: e.target.value })}
                     style={{ flexDirection: "row", flexWrap: "wrap" }}
                   >
                     <div className="card_section">
@@ -105,25 +132,11 @@ class Contact_us extends Component {
                         <p>
                           <FormControlLabel
                             type="radio"
-                            id="radio-1"
+                            id="Arzt"
                             name="myRadio"
-                            value="radio-1"
-                            // checked={this.state.selected === "radio-1"}
-                            onChange={(e) =>
-                              this.setState({ value: e.target.value })
-                            }
+                            value="Arzt"
                             control={<Radio />}
                           />
-                          {/* <input
-                            type="radio"
-                            id="radio-1"
-                            name="myRadio"
-                            value="radio-1"
-                            checked={this.state.selected === "radio-1"}
-                            onChange={(e) =>
-                              this.setState({ value: e.target.value })
-                            }
-                          /> */}
                         </p>
                       </div>
                     </div>
@@ -135,34 +148,16 @@ class Contact_us extends Component {
                         <p>
                           <FormControlLabel
                             type="radio"
-                            id="radio-2"
+                            id="Arzt Plus"
                             name="myRadio"
-                            value="radio-2"
-                            // checked={this.state.selected === "radio-2"}
-                            onChange={(e) =>
-                              this.setState({ value: e.target.value })
-                            }
+                            value="Arzt Plus"
                             control={<Radio />}
                           />
-                          {/* <input
-                            type="radio"
-                            id="radio-2"
-                            name="myRadio"
-                            value="radio-2"
-                            checked={this.state.selected === "radio-2"}
-                            onChange={(e) =>
-                              this.setState({ value: e.target.value })
-                            }
-                          /> */}
                         </p>
                       </div>
                     </div>
                   </RadioGroup>
                 </FormControl>
-                <p>
-                  {" "}
-                  <p>{this.state.value}</p>
-                </p>
               </div>
             </div>
           </div>
@@ -193,7 +188,16 @@ class Contact_us extends Component {
                           <Switch
                             // checked={state.slide1}
                             // onChange={handleChange}
+                            id="slide1"
                             name="slide1"
+                            // value={this.getValue}
+                            // defaultChecked={this.state.checked}
+                            // checked={state.slide1}
+                            // value={this.getValue}
+                            // onChange={this.handleCheck}
+                            onChange={(e) =>
+                              this.setState({ slide1: e.target.checked })
+                            }
                           />
                         }
                         style={{
@@ -216,7 +220,16 @@ class Contact_us extends Component {
                           <Switch
                             // checked={state.slide2}
                             // onChange={handleChange}
+                            id="slide2"
                             name="slide2"
+                            // value={this.getValue}
+                            // checked={state.slide2}
+                            // defaultChecked={this.state.checked}
+                            onChange={(e) =>
+                              this.setState({ slide2: e.target.checked })
+                            }
+                            // onChange={this.handleCheck}
+                            // value={this.getValue}
                           />
                         }
                         style={{
@@ -241,9 +254,16 @@ class Contact_us extends Component {
                         <FormControlLabel
                           control={
                             <Switch
-                              // checked={state.slide3}
-                              // onChange={handleChange}
+                              id="slide3"
                               name="slide3"
+                              // value={this.getValue}
+                              // checked={state.slide2}
+                              // defaultChecked={this.state.checked}
+                              onChange={(e) =>
+                                this.setState({ slide3: e.target.checked })
+                              }
+                              // onChange={this.handleCheck}
+                              // value={this.getValue}
                             />
                           }
                           style={{ display: "flex", justifyContent: "center" }}
@@ -288,7 +308,13 @@ class Contact_us extends Component {
                   />
                 </div>
                 {/* <div>
-                  <input type="textt" id="radio" value={this.state.value} />
+                  <input
+                    type="text"
+                    id="radio_button"
+                    value={this.state.radio}
+                    onChange={this.handleChange.bind(this)}
+                    style={{ display: "none" }}
+                  />
                 </div> */}
                 <div>
                   {" "}
