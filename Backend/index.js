@@ -10,8 +10,9 @@ app.use("/", router);
 app.listen(5000, () => console.log("Server Running"));
 
 const contactEmail = nodemailer.createTransport({
-  host: "smtp.gmail.com",
-  port: 587,
+  // host: "smtp.gmail.com",
+  // port: 587,
+  service: "gmail",
   auth: {
     user: "shishira.Rajk20",
     pass: "shishira123*",
@@ -37,7 +38,7 @@ router.post("/contact", (req, res) => {
   const slide3 = req.body.slide3;
   const mail = {
     from: name,
-    to: "info@softsourced.de",
+    to: "shishirahere@gmail.com",
     subject: "Email from Praxis Website",
     html: `<p>Name: ${name}</p><p>Email: ${email}</p><p>Number: ${number}</p><p>Message: ${message}</p><p>Package:${radio}</p><p>Ich möchte die Inhalte der Webseite in Zukunft selber pflegen: ${slide1}</p><p>Ich benötige Ihre Unterstützung bei der Erstellung der Rechtstexte: ${slide2}</p><p>Ich benötige Unterstützung bei der Erstellung der Bildsprache und Texte: ${slide3}</p>`,
   };
