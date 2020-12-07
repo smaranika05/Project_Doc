@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Comp3 from "./../../../Assets/Mockup.png";
+import Comp3 from "./../../../Assets/Mockup.webp";
 import "./../Package_one_two.scss";
 class Package_two extends Component {
   render() {

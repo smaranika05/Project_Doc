@@ -14,7 +14,7 @@ class BlogPage extends Component {
       General_Practitioner: {
         name: "MARC MÜLLER",
         title:
-          "Scheduling software for General Practitioners - We have analysed the 4 best scheduling tools to save you time and money",
+          "Terminbuchungen online - Wir haben die 4 besten Terminbuchungssoftwares für Ärzte und Krankenhäuser analysiert, um Zeit und Geld zu sparen",
         date: "11th September 2020",
         blogimage: blog4,
         imgURL_aut: author1,

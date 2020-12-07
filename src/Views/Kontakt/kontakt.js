@@ -1,9 +1,12 @@
 import React, { Component } from "react";
-import Comp3 from "./../../Assets/Mockup.png";
+import Comp3 from "./../../Assets/Mockup.webp";
 import { AiFillPhone } from "react-icons/ai";
 import { GrMail } from "react-icons/gr";
 import "./kontakt.scss";
 class Kontakt extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <div className="kontakt">

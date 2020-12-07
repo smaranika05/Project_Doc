@@ -37,19 +37,14 @@ class Package extends Component {
         >
           <div className="text_flex">
             <h1 style={{ color: "#e8505b" }}>
-              Konfiguration Ihrer persönlichen Praxis-Webseite – Wie hätten Sie
+              Konfiguration Ihrer persönlichen Praxis Website – Wie hätten Sie
               es denn gerne?
             </h1>
             <h2>
               Profitieren Sie von unserer Expertise und wählen Sie das passende
-              Paket für
+              Paket hin zu
             </h2>
-            <h2> Ihre persönliche Webseite.</h2>
-            {/* <input
-              type="text"
-              onChange={this.getContent.bind(this)}
-              placeholder="Type Something in Child One"
-            /> */}
+            <h2> Ihrer persönlichen Webseite.</h2>
           </div>
         </div>
         <div className="pakt_price">
@@ -62,7 +57,7 @@ class Package extends Component {
             <div className="anime_one">
               <div className="card_price">
                 <img src={Cardimg} alt="package_one" />
-                <p>1.490€</p>
+                <h2>1.490€</h2>
                 <p>Homepage Arzt LIGHT</p>
                 <div className="outer">
                   <a
@@ -77,7 +72,7 @@ class Package extends Component {
             <div className="anime_two">
               <div className="card_price">
                 <img src={Cardimg} alt="package_two" />
-                <p>1.990€</p>
+                <h2>1.990€</h2>
                 <p>Homepage Arzt PLUS</p>
                 <div className="outer">
                   <a onClick={this.scroll_here}>
