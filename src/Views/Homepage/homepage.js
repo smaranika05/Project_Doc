@@ -8,6 +8,9 @@ import Icon from "./Icon_section/Icon";
 import Contact_home from "./Contact_home/Contact_home";
 import "./homepage.scss";
 class App extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <div className="home">

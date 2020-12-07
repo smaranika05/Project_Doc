@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { animateScroll as scroll } from "react-scroll";
 import { AiTwotonePhone } from "react-icons/ai";
 import { MdEmail } from "react-icons/md";
-import Contact from "../../ContactForm";
 import "./Package_contact.scss";
 class Package_contact extends Component {
   render() {

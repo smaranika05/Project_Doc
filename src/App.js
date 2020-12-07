@@ -1,12 +1,12 @@
 import React, { Component, Suspense, lazy } from "react";
 
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
-import Contact from "./Views/ContactForm";
+
 import { Helmet } from "react-helmet";
 import "./App.css";
 import Loader from "./Components/Loader/index";
 import Card from "./Views/Pakete/Package_contact/Package_contact";
-import Contact_us from "./Views/Pakete/Contact_us_form/Contact_us";
+
 const BlogPage = lazy(() => import("./Views/Blog_pages/blog_page"));
 const Kont = lazy(() => import("./Views/Kontakt/kontakt"));
 const Refer = lazy(() => import("./Views/Refer/refer"));
