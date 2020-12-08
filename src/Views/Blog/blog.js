@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import blog_en from "../../Docs/Blog/blog";
-import blog4 from "./../../Assets/blog1.png";
+import blog1 from "./../../Assets/blog1_small.webp";
+import blog2 from "./../../Assets/blog2_small.webp";
 import "./blog.scss";
 import { Container } from "@material-ui/core";
 
@@ -20,11 +21,11 @@ class Blog extends Component {
   render() {
     const imgUrl = {
       General_Practitioner: {
-        imgURL_art: [blog4, blog4],
+        imgURL_art: [blog1, blog1],
         imgURL_aut: author1,
       },
       Praxismarketing: {
-        imgURL_art: [blog4, blog4],
+        imgURL_art: [blog2, blog2],
         imgURL_aut: author1,
       },
     };

@@ -13,11 +13,11 @@ class Package extends Component {
 
   // getContent(event) {
   //   this.props.callback(event.target.value);
-  //   // scroller.scrollTo("Card_part_one", {
-  //   //   duration: 2000,
-  //   //   delay: 100,
-  //   //   smooth: true,
-  //   // });
+  //   scroller.scrollTo("Card_part_one", {
+  //     duration: 2000,
+  //     delay: 100,
+  //     smooth: true,
+  //   });
   // }
   scroll_here() {
     scroller.scrollTo("Card_part_one", {

@@ -69,8 +69,8 @@ class Contact_us extends Component {
     this.setState({ status: "Sending" });
     axios({
       method: "POST",
-      // url:"https://www.praxis-webseite.de/contact",
-      url: "http://localhost:5000/contact",
+      url: "https://www.praxis-webseite.de/contact",
+      // url: "http://localhost:5000/contact",
       data: this.state,
     }).then((response) => {
       if (response.data.status === "sent") {

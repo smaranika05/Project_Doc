@@ -7,17 +7,25 @@ import Package_contact from "./Package_contact/Package_contact";
 
 import "./pakete.scss";
 class App extends Component {
-  constructor() {
-    super();
-    this.state = {
-      data: "",
-    };
-  }
-  formChild1(params) {
-    this.setState({
-      data: params,
-    });
-  }
+  // constructor() {
+  //   super();
+  //   this.state = {
+  //     radio: "",
+  //   };
+  // }
+  // formChild1(params) {
+  //   this.setState({
+  //     radio: params,
+  //   });
+  // }
+
+  // formchild(event) {
+  //   const field = event.target.id;
+  //   if (field === "radio") {
+  //     this.setState({ radio: event.target.value });
+  //   }
+  // }
+
   componentDidMount() {
     window.scrollTo(0, 0);
   }
@@ -38,7 +46,7 @@ class App extends Component {
             <Contact_us />
           </div>
           <div className="pakete_part6">
-            <Package_contact data={this.state.data} />
+            <Package_contact />
           </div>
         </div>
       </div>

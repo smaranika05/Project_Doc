@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import blog4 from "./../../Assets/blog1.png";
+import blog1 from "./../../Assets/blog1_big.webp";
+import blog2 from "./../../Assets/blog2_big.webp";
 import author1 from "./../../Assets/auth.png";
 import Blog2 from "./Praxismarketing";
 import Blog1 from "./General_Practitioner";
@@ -16,7 +17,7 @@ class BlogPage extends Component {
         title:
           "Terminbuchungen online - Wir haben die 4 besten Terminbuchungssoftwares für Ärzte und Krankenhäuser analysiert, um Zeit und Geld zu sparen",
         date: "11th September 2020",
-        blogimage: blog4,
+        blogimage: blog1,
         imgURL_aut: author1,
         englishBlog: <Blog1 />,
       },
@@ -25,7 +26,7 @@ class BlogPage extends Component {
         title:
           "Praxismarketing - Die perfekte Praxis-Website mit passendem Arzt-Logo erstellen",
         date: "4th September 2020",
-        blogimage: blog4,
+        blogimage: blog2,
         imgURL_aut: author1,
         englishBlog: <Blog2 />,
       },
