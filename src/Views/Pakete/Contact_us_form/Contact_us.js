@@ -60,12 +60,26 @@ class Contact_us extends Component {
   //   }
   // }
 
-  getInitialState() {
-    return { checked: true };
+  // getInitialState() {
+  //   return { checked: true };
+  // }
+
+  componentDidMount() {
+    this.callApi()
+      .then((res) => this.setState({ response: res.express }))
+      .catch((err) => console.log(err));
   }
 
-  handleSubmit(event) {
-    event.preventDefault();
+  callApi = async () => {
+    const response = await fetch("/contact");
+    const body = await response.json();
+    if (response.status !== 200) throw Error(body.message);
+
+    return body;
+  };
+
+  handleSubmit = async (e) => {
+    e.preventDefault();
     this.setState({ status: "Sending" });
     axios({
       method: "POST",
@@ -92,7 +106,7 @@ class Contact_us extends Component {
         alert("Message Failed");
       }
     });
-  }
+  };
 
   resetForm() {
     document.getElementById("contact-form").reset();

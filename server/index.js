@@ -5,16 +5,16 @@ const nodemailer = require("nodemailer");
 const { google } = require("googleapis");
 const OAuth2 = google.auth.OAuth2;
 const app = express();
-
+const path = require("path");
 const bodyParser = require("body-parser");
 const pino = require("express-pino-logger")();
-
+const port = process.env.PORT || 5000;
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(pino);
 app.use(cors());
 app.use(express.json());
-app.use("/", router);
-app.listen(5000, () => console.log("Server Running"));
+// app.use("/", router);
+// app.listen(5000, () => console.log("Server Running"));
 
 const oauth2Client = new OAuth2(
   "334223947302-fejcs001663k3hg2tdrqmqdd85711ma8.apps.googleusercontent.com", // ClientID
@@ -47,7 +47,8 @@ contactEmail.verify((error) => {
   }
 });
 
-router.post("/contact", (req, res) => {
+// router.post("/contact", (req, res) => {
+app.post("/contact", (req, res) => {
   const name = req.body.name;
   const email = req.body.email;
   const message = req.body.message;
@@ -77,3 +78,15 @@ router.post("/contact", (req, res) => {
     }
   });
 });
+
+if (process.env.NODE_ENV === "production") {
+  // Serve any static files
+  app.use(express.static(path.join(__dirname, "src/build")));
+
+  // Handle React routing, return all requests to React app
+  app.get("*", function (req, res) {
+    res.sendFile(path.join(__dirname, "src/build", "index.html"));
+  });
+}
+
+app.listen(port, () => console.log(`Listening on port ${port}`));
