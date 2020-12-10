@@ -3,7 +3,6 @@ import blog_en from "../../Docs/Blog/blog";
 import blog1 from "./../../Assets/blog1_small.webp";
 import blog2 from "./../../Assets/blog2_small.webp";
 import "./blog.scss";
-import { Container } from "@material-ui/core";
 
 import author1 from "./../../Assets/auth.png";
 class Blog extends Component {
@@ -34,7 +33,6 @@ class Blog extends Component {
       blog_en &&
       blog_en.blogitems.map((blogPost, idx) => {
         console.log("blogPost", blogPost, idx);
-        let name = blogPost.author[0] + "-" + blogPost.author[1];
 
         return (
           <>
@@ -47,7 +45,7 @@ class Blog extends Component {
                   />
                   <img
                     src={imgUrl[blogPost.bId].imgURL_art[0]}
-                    alt="blog image"
+                    alt="blog_image"
                     loading="lazy"
                   />
                 </div>

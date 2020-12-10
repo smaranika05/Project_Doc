@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import Doc1 from "./../../Assets/Doc1.png";
 import Dig from "./../../Assets/Digital.webp";
-import { AiFillPhone } from "react-icons/ai";
-import { GrMail } from "react-icons/gr";
+
 import "./refer.scss";
 class Refer extends Component {
   componentDidMount() {

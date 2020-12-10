@@ -77,9 +77,7 @@ class Package_two extends Component {
               </div>
               <div className="outer">
                 <a onClick={scrollToBottom}>
-                  <button className="btn" href="#">
-                    Jetzt Angebot anfordern
-                  </button>
+                  <button className="btn">Jetzt Angebot anfordern</button>
                 </a>
               </div>
             </div>

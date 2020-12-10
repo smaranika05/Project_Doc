@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import Cardimg from "./../../../Assets/card.webp";
 import { scroller } from "react-scroll";
-import PropTypes from "prop-types";
+
 import "./Package.scss";
 
 class Package extends Component {
@@ -63,6 +63,7 @@ class Package extends Component {
                   <a
                     onClick={this.scroll_here}
                     // onChange={this.getContent.bind(this)}
+                    // href={this.scroll_here}
                   >
                     <button className="btn">Zum Angebot</button>
                   </a>

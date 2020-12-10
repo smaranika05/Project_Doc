@@ -5,10 +5,14 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
+
+import { env } from "./config";
+
 ReactGA.initialize("G-P7YWD9VX78");
 ReactGA.pageview(window.location.pathname + window.location.search);
 ReactDOM.render(
   <React.StrictMode>
+    {/* <App env={env} /> */}
     <App />
   </React.StrictMode>,
   document.getElementById("root")

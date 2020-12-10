@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import Root from "./Root/root";
-import Price_Card from "./Price_Card/Price_card";
+import PriceCard from "./Price_Card/Price_card";
 import Cards from "./Cards/Cards";
 import Sec4 from "./Sec4/Sec4";
 import Sec5 from "./Sec5/sec5";
 import Icon from "./Icon_section/Icon";
-import Contact_home from "./Contact_home/Contact_home";
+import Contacthome from "./Contact_home/Contact_home";
 import "./homepage.scss";
 class App extends Component {
   componentDidMount() {
@@ -19,7 +19,7 @@ class App extends Component {
             <Root />
           </div>
           <div className="part2">
-            <Price_Card />
+            <PriceCard />
           </div>
           <div className="part3">
             <Cards />
@@ -34,7 +34,7 @@ class App extends Component {
             <Icon />
           </div>
           <div className="part7">
-            <Contact_home />
+            <Contacthome />
           </div>
         </div>
       </div>

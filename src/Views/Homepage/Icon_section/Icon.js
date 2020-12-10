@@ -3,13 +3,12 @@ import { HiLightBulb } from "react-icons/hi";
 import { MdMessage } from "react-icons/md";
 import { FaLaptopCode } from "react-icons/fa";
 import { BsGraphUp } from "react-icons/bs";
-import { AiTwotonePhone } from "react-icons/ai";
-import { MdEmail } from "react-icons/md";
+
 import { BsReverseLayoutTextWindowReverse } from "react-icons/bs";
-import Comp2 from "./../../../Assets/b-mock.webp";
-import Svg_right from "./svg_right";
-import Svg_left from "./svg_left";
-import Svg_curve from "./svg_curve";
+
+import Svgright from "./svg_right";
+import Svgleft from "./svg_left";
+import Svgcurve from "./svg_curve";
 
 import "./Icon.scss";
 class Icon extends Component {
@@ -27,7 +26,7 @@ class Icon extends Component {
               <p>Definieren der Projektanforderungen</p>
             </div>
             <div className="arrows">
-              <Svg_right />
+              <Svgright />
             </div>
             <div className="icons1_flex">
               <p className="icons">
@@ -37,7 +36,7 @@ class Icon extends Component {
             </div>
             <div className="arrows">
               {" "}
-              <Svg_right />
+              <Svgright />
             </div>
             <div className="icons1_flex">
               <p className="icons">
@@ -55,7 +54,7 @@ class Icon extends Component {
               <p>Suchmaschinen-Perfektionierung</p>
             </div>
             <div className="arrows">
-              <Svg_left />
+              <Svgleft />
             </div>
             <div className="icons1_flex">
               <p className="icons">
@@ -64,7 +63,7 @@ class Icon extends Component {
               <p>Rechtstext-Erstellung (Datenschutzrichtlinien, AGBs)</p>{" "}
             </div>
             <div className="curve">
-              <Svg_curve />
+              <Svgcurve />
             </div>
           </div>
           <h3>

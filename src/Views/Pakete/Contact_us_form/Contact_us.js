@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import PropTypes from "prop-types";
+
 import Radio from "@material-ui/core/Radio";
 import Switch from "@material-ui/core/Switch";
 
@@ -64,26 +64,26 @@ class Contact_us extends Component {
   //   return { checked: true };
   // }
 
-  componentDidMount() {
-    this.callApi()
-      .then((res) => this.setState({ response: res.express }))
-      .catch((err) => console.log(err));
-  }
+  // componentDidMount() {
+  //   this.callApi()
+  //     .then((res) => this.setState({ response: res.express }))
+  //     .catch((err) => console.log(err));
+  // }
 
-  callApi = async () => {
-    const response = await fetch("/contact");
-    const body = await response.json();
-    if (response.status !== 200) throw Error(body.message);
+  // callApi = async () => {
+  //   const response = await fetch("/contact");
+  //   const body = await response.json();
+  //   if (response.status !== 200) throw Error(body.message);
 
-    return body;
-  };
+  //   return body;
+  // };
 
   handleSubmit = async (e) => {
     e.preventDefault();
     this.setState({ status: "Sending" });
     axios({
       method: "POST",
-      // url: "https://www.praxis-webseite.de/contact",
+      //url: "https://www.praxis-webseite.de:8080/contact",
       url: "http://localhost:5000/contact",
       data: this.state,
     }).then((response) => {
@@ -210,7 +210,6 @@ class Contact_us extends Component {
                           display: "flex",
                           justifyContent: "center",
                           alignItems: "center",
-                          justifyContent: "center",
                         }}
                       />
                     </div>
@@ -242,7 +241,6 @@ class Contact_us extends Component {
                           display: "flex",
                           justifyContent: "center",
                           alignItems: "center",
-                          justifyContent: "center",
                         }}
                       />
                     </div>

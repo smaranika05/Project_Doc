@@ -1,8 +1,5 @@
 import React, { Component } from "react";
 import Doc from "./../../../Assets/Doc.webp";
-import one from "./../../../Assets/one.png";
-import two from "./../../../Assets/two.png";
-import svg from "./../../../Assets/arrow.svg";
 import { AiTwotonePhone } from "react-icons/ai";
 import { MdEmail } from "react-icons/md";
 // import { BrowserRouter as Router, Route,Link } from "react-router-dom";

@@ -1,6 +1,6 @@
-import React, { Component, Suspense, lazy } from "react";
+import React, { Suspense, lazy } from "react";
 
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import { Helmet } from "react-helmet";
 import "./App.css";
@@ -45,5 +45,27 @@ function App() {
     </Suspense>
   );
 }
+// import React, { Component } from "react";
+// import logo from "./logo.svg";
+// import "./App.css";
+// import FeedbackForm from "./Components/FeedbackForm";
+// import PropTypes from "prop-types";
+
+// class App extends Component {
+//   render() {
+//     return (
+//       <div className="App">
+//         <header className="App-header">
+//           <h1 className="App-title">Welcome to React</h1>
+//         </header>
+//         <FeedbackForm env={this.props.env} />
+//       </div>
+//     );
+//   }
+// }
+
+// App.propTypes = {
+//   env: PropTypes.object.isRequired,
+// };
 
 export default App;

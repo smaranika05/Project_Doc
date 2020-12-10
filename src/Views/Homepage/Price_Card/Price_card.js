@@ -6,15 +6,15 @@ import "./Price_card.scss";
 class Cardp extends Component {
   render() {
     // function click_me() {}
-    function scrollToBottom() {
-      scroller.scrollTo("Card_part_one", {
-        duration: 2000,
-        delay: 100,
-        smooth: true,
-      });
-    }
-    var Scroll = require("react-scroll");
-    var scroller = Scroll.scroller;
+    // function scrollToBottom() {
+    //   scroller.scrollTo("Card_part_one", {
+    //     duration: 2000,
+    //     delay: 100,
+    //     smooth: true,
+    //   });
+    // }
+    // var Scroll = require("react-scroll");
+    // var scroller = Scroll.scroller;
     return (
       <div className="card_wrapper">
         <div

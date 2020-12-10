@@ -25,6 +25,7 @@ class Sec4 extends Component {
                   </a>
                   ist ein Projekt von{" "}
                   <a
+                    rel="noreferrer"
                     href="https://softsourced.de/"
                     target="_blank"
                     style={{ textDecoration: "none", color: "black" }}

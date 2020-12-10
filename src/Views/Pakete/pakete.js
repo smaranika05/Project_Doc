@@ -1,15 +1,17 @@
 import React, { Component } from "react";
 import Package from "./Package/Package";
-import Package_one from "./Package_one/Package_one";
-import Package_two from "./Package_two/Package_two";
-import Contact_us from "./Contact_us_form/Contact_us";
-import Package_contact from "./Package_contact/Package_contact";
-
+import Packageone from "./Package_one/Package_one";
+import Packagetwo from "./Package_two/Package_two";
+// import Contactus from "./Contact_us_form/Contact_us";
+import Packagecontact from "./Package_contact/Package_contact";
+import Mail from "./Mail";
+import { env } from "./../../config";
 import "./pakete.scss";
-class App extends Component {
+
+class Pakete extends Component {
   // constructor() {
   //   super();
-  //   this.state = {
+  //   this.state = {s
   //     radio: "",
   //   };
   // }
@@ -37,16 +39,16 @@ class App extends Component {
             <Package />
           </div>
           <div className="pakete_part2">
-            <Package_one />
+            <Packageone />
           </div>
           <div className="pakete_part3">
-            <Package_two />
+            <Packagetwo />
           </div>
           <div className="pakete_part4">
-            <Contact_us />
+            <Mail env={env} />
           </div>
           <div className="pakete_part6">
-            <Package_contact />
+            <Packagecontact />
           </div>
         </div>
       </div>
@@ -54,4 +56,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Pakete;
