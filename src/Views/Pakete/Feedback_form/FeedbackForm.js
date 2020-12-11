@@ -334,7 +334,7 @@ const FeedbackForm = ({ env }) => {
                   id="feedback-entry"
                   name="feedback-entry"
                   onChange={handleChange}
-                  placeholder="Enter your feedback here"
+                  placeholder="Hier ist Platz für Ihre Anmerkungen."
                   required
                   value={feedback}
                 />
