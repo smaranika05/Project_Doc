@@ -1,5 +1,5 @@
 import React, { Suspense, lazy } from "react";
-import TagManager from 'react-gtm-module'
+
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import { Helmet } from "react-helmet";
