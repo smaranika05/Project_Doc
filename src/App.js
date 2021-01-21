@@ -17,10 +17,7 @@ const Pakt = lazy(() => import("./Views/Pakete/pakete"));
 const Footer = lazy(() => import("./Components/footer/footer"));
 const Impressum = lazy(() => import("./Views/Impressum/impressum"));
 const PrivacyPolicy = lazy(() => import("./Views/PrivacyPolicy/pp"));
-const tagManagerArgs = {
-  gtmId: 'GTM-P8RJ449'
-}
-TagManager.initialize(tagManagerArgs)
+
 function App() {
   return (
     
