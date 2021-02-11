@@ -1,11 +1,5 @@
 import React, { Suspense, lazy } from "react";
-<<<<<<< HEAD
-​
 import { BrowserRouter as Router, Route } from "react-router-dom";
-​
-=======
-import { BrowserRouter as Router, Route } from "react-router-dom";
->>>>>>> 498b6954144aec6a53d2fd116bcb91ef232ebe5d
 import { Helmet } from "react-helmet";
 import "./App.css";
 import Loader from "./Components/Loader/index";
@@ -21,10 +15,6 @@ const Pakt = lazy(() => import("./Views/Pakete/pakete"));
 const Footer = lazy(() => import("./Components/footer/footer"));
 const Impressum = lazy(() => import("./Views/Impressum/impressum"));
 const PrivacyPolicy = lazy(() => import("./Views/PrivacyPolicy/pp"));
-<<<<<<< HEAD
-​
-=======
->>>>>>> 498b6954144aec6a53d2fd116bcb91ef232ebe5d
 function App() {
   return (
     <Suspense fallback={<Loader />}>
@@ -46,10 +36,6 @@ function App() {
         <Route exact path="/datenschutzerklaerung" component={PrivacyPolicy} />
         <Route exact path="/blog/:blogid" component={BlogPage} />
         <Route exact path="/Pakete#card_section" component={Card} />
-<<<<<<< HEAD
-​
-=======
->>>>>>> 498b6954144aec6a53d2fd116bcb91ef232ebe5d
         <Footer />
         <CookieConsent
           buttonText="Akzeptieren"
