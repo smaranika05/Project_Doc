@@ -1,7 +1,5 @@
 import React, { Suspense, lazy } from "react";
-​
 import { BrowserRouter as Router, Route } from "react-router-dom";
-​
 import { Helmet } from "react-helmet";
 import "./App.css";
 import Loader from "./Components/Loader/index";
