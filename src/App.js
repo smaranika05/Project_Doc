@@ -15,7 +15,6 @@ const Pakt = lazy(() => import("./Views/Pakete/pakete"));
 const Footer = lazy(() => import("./Components/footer/footer"));
 const Impressum = lazy(() => import("./Views/Impressum/impressum"));
 const PrivacyPolicy = lazy(() => import("./Views/PrivacyPolicy/pp"));
-​
 function App() {
   return (
     <Suspense fallback={<Loader />}>
@@ -37,7 +36,6 @@ function App() {
         <Route exact path="/datenschutzerklaerung" component={PrivacyPolicy} />
         <Route exact path="/blog/:blogid" component={BlogPage} />
         <Route exact path="/Pakete#card_section" component={Card} />
-​
         <Footer />
         <CookieConsent
           buttonText="Akzeptieren"
